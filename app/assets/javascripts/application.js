@@ -199,9 +199,9 @@ jQuery(function($) {
     google.maps.event.addDomListener(window, 'load', initialize_map);
 
 
-    $('a.lb-next').click(function(){
-        alert('ghsot');
-    });
+    //$('a.lb-next').click(function(){
+    //    alert('ghsot');
+    //});
 
     //rating star
     var $star_rating = $('.star-rating .fa');

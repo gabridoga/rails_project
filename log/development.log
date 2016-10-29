@@ -2463,3 +2463,685 @@ Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 04:35:05 
 
 
 Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 04:35:12 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 11:18:09 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (16.9ms)
+  Rendered home/_service.html.erb (0.1ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (0.0ms)
+  Rendered home/_team.html.erb (25.9ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (20.4ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (79.2ms)
+Completed 200 OK in 4265ms (Views: 4264.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.min.self-11c336d8e28efc5cb03f77b9ffbfcf98c72f8f98f8a7322b78120ff14f71211c.css?body=1" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/bootstrap.min.self-4e8ea40232d656dfcf8db1d1c89429f0acbe06961ecbd33c765e6d8a7c5dc7a9.css?body=1" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/responsive.self-50510f266476273eea0e4fbbdd4b98a47da483ad069b07636fba668e041c6d69.css?body=1" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/application.self-64a8f51f0b3e438f2203cc222031fa16e07b8071dbe0f1d7aad1147678508e3a.css?body=1" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/preset1.self-4fa8b34a1dbfe7481dfcbb66f37125f2efaf18566757d7d1fe6ba62263038431.css?body=1" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/blog/2-66d2b64e9b73e7f753a5f0395010a9336b3e35cf386922c6ce5724e04c1f8fae.jpg" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/blog/1-98c8e541de9ed3a9c04828a7acce7338e057759fd0d7c27156619007a1859714.jpg" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/blog/3-5d68f9d063aa3a34cc188208f797894cc723a406dd6d79e089fdd99be3d9b49f.jpg" for 127.0.0.1 at 2016-10-29 11:18:13 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-29 11:19:05 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-29 11:19:05 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-29 11:19:05 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-29 11:19:05 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-29 11:19:05 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 11:19:05 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 11:19:42 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 11:26:43 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.3ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (0.0ms)
+  Rendered home/_team.html.erb (4.4ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.4ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (3.1ms)
+  Rendered home/_contact.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 80ms (Views: 79.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-29 11:26:44 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-29 11:26:44 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-29 11:26:44 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-29 11:26:44 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-29 11:26:44 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-29 11:26:44 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-29 11:26:44 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-29 11:26:44 +0200
+
+
+Started GET "/assets/slider/1-e611246cc1aa927f1ea69afdeb866c1dc0b0d562771faaae6e036e833604aab7.jpg" for 127.0.0.1 at 2016-10-29 11:27:05 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-29 11:27:06 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-29 11:27:06 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-29 11:27:06 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-29 11:27:06 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 11:27:06 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 11:27:31 +0200
+
+PG::ConnectionBad (FATAL:  password authentication failed for user "rails"
+):
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `initialize'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `new'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/postgresql_adapter.rb:651:in `connect'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/postgresql_adapter.rb:242:in `initialize'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `new'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/postgresql_adapter.rb:44:in `postgresql_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.5.2) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.5.2) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (59.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (118.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 11:28:08 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (803.0ms)
+  Rendered home/_service.html.erb (0.3ms)
+  Rendered home/_about.html.erb (0.3ms)
+  Rendered home/_portfolio.html.erb (0.4ms)
+  Rendered home/_team.html.erb (3.0ms)
+  Rendered home/_feature.html.erb (0.2ms)
+  Rendered home/_pricing.html.erb (0.2ms)
+  Rendered home/_twiter.html.erb (0.2ms)
+  Rendered home/_blog.html.erb (3.6ms)
+  Rendered home/_contact.html.erb (7.5ms)
+  Rendered home/_footer.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (833.5ms)
+Completed 200 OK in 921ms (Views: 906.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-29 11:28:09 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-29 11:28:09 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-29 11:28:09 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-29 11:28:09 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-29 11:28:09 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-29 11:28:09 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-29 11:28:09 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-29 11:28:09 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-29 11:28:10 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-29 11:28:10 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-29 11:28:10 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-29 11:28:10 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 11:28:10 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 11:28:11 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (3.1ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (0.0ms)
+  Rendered home/_team.html.erb (2.2ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.1ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 68ms (Views: 67.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/slider/2-bba89fa5cd296d62620aa18e617f54b49399fbea98ab1959aa73b4cd9906b3ea.jpg" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/slider/3-cc7d37126fdf3f1151b10df42656ca16ffa25be933ae4f130e8a6a6c05e86faa.jpg" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-29 11:29:46 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 11:29:47 +0200
+
+
+Started GET "/assets/portfolio/sports_details.png" for 127.0.0.1 at 2016-10-29 14:45:11 +0200
+
+
+Started GET "/assets/portfolio/chating_details.png" for 127.0.0.1 at 2016-10-29 14:45:11 +0200
+
+
+Started GET "/assets/portfolio/schedule_details.png" for 127.0.0.1 at 2016-10-29 14:45:11 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 14:47:09 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.9ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.1ms)
+  Rendered home/_portfolio.html.erb (1.2ms)
+  Rendered home/_team.html.erb (5.7ms)
+  Rendered home/_feature.html.erb (0.1ms)
+  Rendered home/_pricing.html.erb (0.1ms)
+  Rendered home/_twiter.html.erb (0.1ms)
+  Rendered home/_blog.html.erb (3.8ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 162ms (Views: 162.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-28f0f1c5f8a3925524cdccd8e87791a29428f3eb2c0ea9904952b09a9acfacee.js?body=1" for 127.0.0.1 at 2016-10-29 14:47:09 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-29 14:47:09 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-29 14:47:09 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-29 14:47:09 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-29 14:47:09 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-29 14:47:09 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-29 14:47:09 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-29 14:47:09 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-29 14:47:09 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-29 14:47:11 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 14:47:11 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-29 14:47:11 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 14:47:13 +0200
+
+
+Started GET "/assets/portfolio/booking_details.png" for 127.0.0.1 at 2016-10-29 14:47:31 +0200
+
+
+Started GET "/assets/portfolio/traveling_details.png" for 127.0.0.1 at 2016-10-29 14:47:32 +0200
+
+
+Started GET "/assets/portfolio/dating_details.png" for 127.0.0.1 at 2016-10-29 14:47:32 +0200
+
+
+Started GET "/assets/portfolio/location_details.png" for 127.0.0.1 at 2016-10-29 14:47:34 +0200
+
+
+Started GET "/assets/portfolio/photoshare_details.png" for 127.0.0.1 at 2016-10-29 14:47:35 +0200
+
+
+Started GET "/assets/portfolio/schedule_details.png" for 127.0.0.1 at 2016-10-29 14:47:36 +0200
+
+
+Started GET "/assets/portfolio/sports_details.png" for 127.0.0.1 at 2016-10-29 14:47:38 +0200
+
+
+Started GET "/assets/portfolio/chating_details.png" for 127.0.0.1 at 2016-10-29 14:47:50 +0200
+
+
+Started GET "/assets/portfolio/dating_details.png" for 127.0.0.1 at 2016-10-29 14:47:58 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 15:19:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (3.2ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.1ms)
+  Rendered home/_portfolio.html.erb (8.2ms)
+  Rendered home/_team.html.erb (2.3ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.7ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 93ms (Views: 92.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/portfolio/traveling-d38718b0ef047c7818eea14195fcf361fc6013d2c2883c108aaa1536e115d9d2.png" for 127.0.0.1 at 2016-10-29 15:19:44 +0200
+
+
+Started GET "/assets/portfolio/booking-f7f81e7ce39c384c3bdf8f05239ad0e5003db465bc1ccd6771cc60d573c7ac5a.png" for 127.0.0.1 at 2016-10-29 15:19:44 +0200
+
+
+Started GET "/assets/portfolio/dating-e8ac0de8ac95c80fb62ff5eed1f77ca6b13322fee8bbb4087ebb9f2e9192a2a8.png" for 127.0.0.1 at 2016-10-29 15:19:44 +0200
+
+
+Started GET "/assets/portfolio/locationservice-ae270718fe4cade38c0893c1660433cca3298507439e191b12b2dfcb205129b2.png" for 127.0.0.1 at 2016-10-29 15:19:44 +0200
+
+
+Started GET "/assets/portfolio/photoshare-925899025276f67b5de5afa24d118321c61d889288ee2f5bb54c85da52625b18.png" for 127.0.0.1 at 2016-10-29 15:19:44 +0200
+
+
+Started GET "/assets/portfolio/scehule-f2d93742f5de2cc2fc2931e44736755406f44f637eb3f62b5e0446545fbd3d5d.png" for 127.0.0.1 at 2016-10-29 15:19:44 +0200
+
+
+Started GET "/assets/portfolio/sports-fed30ea6eb31a5e606bae4f13bc9167ae0ba71d24f263f18b15cca400059ad8c.png" for 127.0.0.1 at 2016-10-29 15:19:44 +0200
+
+
+Started GET "/assets/portfolio/chating-573a850e269602d03ba01ab74aea2580798145a8b30242a42f7244148b43ff3f.png" for 127.0.0.1 at 2016-10-29 15:19:44 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-29 15:19:46 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-29 15:19:46 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 15:19:46 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 15:19:47 +0200
+
+
+Started GET "/assets/portfolio/traveling_details.png" for 127.0.0.1 at 2016-10-29 15:20:03 +0200
+
+
+Started GET "/assets/portfolio/booking_details.png" for 127.0.0.1 at 2016-10-29 15:20:03 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 15:21:59 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (6.4ms)
+  Rendered home/_team.html.erb (2.3ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.2ms)
+  Rendered home/_contact.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (25.2ms)
+Completed 200 OK in 75ms (Views: 74.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-29 15:22:00 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-29 15:22:00 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 15:22:00 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 15:22:02 +0200
+
+
+Started GET "/assets/portfolio/traveling_details-b25f7729ad6410dca2b7dc008d144bd2031a4ae112c802bc05d5c32f462e7414.png" for 127.0.0.1 at 2016-10-29 15:22:04 +0200
+
+
+Started GET "/assets/portfolio/booking_details.png" for 127.0.0.1 at 2016-10-29 15:22:05 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 15:26:05 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.4ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.1ms)
+  Rendered home/_team.html.erb (1.9ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.1ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 69ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-29 15:26:05 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-29 15:26:05 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 15:26:05 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 15:26:06 +0200
+
+
+Started GET "/assets/portfolio/booking_details-3ba3c7619a4527616188919f8d45651a7480c1afe055c455acfa46d27f08806a.png" for 127.0.0.1 at 2016-10-29 15:26:09 +0200
+
+
+Started GET "/assets/portfolio/dating_details-20d53c1c44bf922aaded72166df06c568c1dd44831890820c9de75a9b8200823.png" for 127.0.0.1 at 2016-10-29 15:26:10 +0200
+
+
+Started GET "/assets/portfolio/location_details-d5714822c666bff553dc668d49e4fa09dd71bd7bfa88683ee59587d8ad407dd6.png" for 127.0.0.1 at 2016-10-29 15:26:11 +0200
+
+
+Started GET "/assets/portfolio/photoshare_details-6656178dee03819f0b574070c293c728ea715ac431321492f6e16ff0b529ea31.png" for 127.0.0.1 at 2016-10-29 15:26:12 +0200
+
+
+Started GET "/assets/portfolio/schedule_details-d32ad43da95bdc830d2428dee416089098de50218efb80af1f6b304098c187ec.png" for 127.0.0.1 at 2016-10-29 15:26:13 +0200
+
+
+Started GET "/assets/portfolio/sports_details-6b5173a45f66a88b0ebdbbe75b464bb73b875c52acd07c5b63870c1f7443c464.png" for 127.0.0.1 at 2016-10-29 15:26:13 +0200
+
+
+Started GET "/assets/portfolio/chating_details-70cd5395812c836c7990444627f3568aa2ca51eb79706f9ff52a3705528b15b5.png" for 127.0.0.1 at 2016-10-29 15:26:14 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 15:29:47 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.2ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (8.0ms)
+  Rendered home/_team.html.erb (1.9ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (1.9ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (31.6ms)
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...h(lightbox/prev": expected ")", was ".png)) left 48%..."):
+    2: <html>
+    3: <head>
+    4:   <title>GabriDoga</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    7:   <!--<%= javascript_include_tag 'http://maps.google.com/maps/api/js?key=AIzaSyABXSjigpBWZCdRKUUckLeR3fknX2XXGNI&sensor=true', 'data-turbolinks-track' => true %>-->
+    8:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  app/assets/stylesheets/lightbox.scss:114
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3842484987406251514_70246772711720'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (69.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (113.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 15:29:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.5ms)
+  Rendered home/_team.html.erb (2.2ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.3ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (27.9ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...h(lightbox/prev": expected ")", was ".png)) left 48%..."):
+    2: <html>
+    3: <head>
+    4:   <title>GabriDoga</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    7:   <!--<%= javascript_include_tag 'http://maps.google.com/maps/api/js?key=AIzaSyABXSjigpBWZCdRKUUckLeR3fknX2XXGNI&sensor=true', 'data-turbolinks-track' => true %>-->
+    8:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  app/assets/stylesheets/lightbox.scss:114
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___3842484987406251514_70246772711720'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (119.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 15:30:36 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.4ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (8.2ms)
+  Rendered home/_team.html.erb (1.9ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (1.9ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 238ms (Views: 237.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lightbox.self-d2c20b16b2adf48a42d757bd2a3e3b2d4259b43a40c790ca09344e54d0b64e77.css?body=1" for 127.0.0.1 at 2016-10-29 15:30:36 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 15:30:37 +0200

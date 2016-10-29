@@ -30,7 +30,8 @@
         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="300ms">
           <div class="folio-image">
 
-            <img class="img-responsive" src="/assets/portfolio/traveling.png" class="img-rounded" alt="">
+            <!--<img class="img-responsive" src="/assets/portfolio/traveling.png" class="img-rounded" alt="">-->
+            <%= image_tag "portfolio/traveling.png", class: "img-responsive", alt: 'logo' %>
           </div>
           <div class="overlay">
             <div class="overlay-content">
@@ -41,7 +42,7 @@
                 </div>
                 <div class="folio-overview">
                   <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                  <span class="folio-expand"><a href="/assets/portfolio/traveling_details.png" data-lightbox="portfolio" data-title="TRAVELING SERVICE."><i class="fa fa-search-plus"></i></a></span>
+                  <span class="folio-expand"><a href=<%= asset_path('portfolio/traveling_details.png') %> data-lightbox="portfolio" data-title="TRAVELING SERVICE."><i class="fa fa-search-plus"></i></a></span>
                 </div>
               </div>
             </div>
@@ -51,7 +52,8 @@
       <div class="col-sm-3">
         <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="400ms">
           <div class="folio-image">
-            <img class="img-responsive" src="/assets/portfolio/booking.png" alt="">
+            <!--<img class="img-responsive" src="/assets/portfolio/booking.png" alt="">-->
+            <%= image_tag "portfolio/booking.png", class: "img-responsive", alt: 'logo' %>
           </div>
           <div class="overlay">
             <div class="overlay-content">
@@ -62,7 +64,7 @@
                 </div>
                 <div class="folio-overview">
                   <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                  <span class="folio-expand"><a href="/assets/portfolio/booking_details.png" data-lightbox="portfolio" data-title="BOOKING SERVICE."><i class="fa fa-search-plus"></i></a></span>
+                  <span class="folio-expand"><a href=<%= asset_path('portfolio/booking_details.png') %> data-lightbox="portfolio" data-title="BOOKING SERVICE."><i class="fa fa-search-plus"></i></a></span>
                 </div>
               </div>
             </div>
@@ -72,7 +74,8 @@
       <div class="col-sm-3">
         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="500ms">
           <div class="folio-image">
-            <img class="img-responsive" src="/assets/portfolio/dating.png" alt="">
+            <!--<img class="img-responsive" src="/assets/portfolio/dating.png" alt="">-->
+            <%= image_tag "portfolio/dating.png", class: "img-responsive", alt: 'logo' %>
           </div>
           <div class="overlay">
             <div class="overlay-content">
@@ -83,7 +86,7 @@
                 </div>
                 <div class="folio-overview">
                   <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                  <span class="folio-expand"><a href="/assets/portfolio/dating_details.png" data-lightbox="portfolio" data-title="DATING SERVICE."><i class="fa fa-search-plus"></i></a></span>
+                  <span class="folio-expand"><a href=<%= asset_path('portfolio/dating_details.png') %> data-lightbox="portfolio" data-title="DATING SERVICE."><i class="fa fa-search-plus"></i></a></span>
                 </div>
               </div>
             </div>
@@ -93,7 +96,9 @@
       <div class="col-sm-3">
         <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="600ms">
           <div class="folio-image">
-            <img class="img-responsive" src="/assets/portfolio/locationservice.png" alt="">
+            <!--<img class="img-responsive" src="/assets/portfolio/locationservice.png" alt="">-->
+            <%= image_tag "portfolio/locationservice.png", class: "img-responsive", alt: 'logo' %>
+
           </div>
           <div class="overlay">
             <div class="overlay-content">
@@ -104,7 +109,7 @@
                 </div>
                 <div class="folio-overview">
                   <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                  <span class="folio-expand"><a href="/assets/portfolio/location_details.png" data-lightbox="portfolio" data-title="LOCATION SERVICE."><i class="fa fa-search-plus"></i></a></span>
+                  <span class="folio-expand"><a href=<%= asset_path('portfolio/location_details.png') %> data-lightbox="portfolio" data-title="LOCATION SERVICE."><i class="fa fa-search-plus"></i></a></span>
                 </div>
               </div>
             </div>
@@ -114,7 +119,8 @@
       <div class="col-sm-3">
         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="700ms">
           <div class="folio-image">
-            <img class="img-responsive" src="/assets/portfolio/photoshare.png" alt="">
+            <!--<img class="img-responsive" src="/assets/portfolio/photoshare.png" alt="">-->
+            <%= image_tag "portfolio/photoshare.png", class: "img-responsive", alt: 'logo' %>
           </div>
           <div class="overlay">
             <div class="overlay-content">
@@ -125,7 +131,7 @@
                 </div>
                 <div class="folio-overview">
                   <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                  <span class="folio-expand"><a href="/assets/portfolio/photoshare_details.png" data-lightbox="portfolio" data-title="PHOTO SHARING SERVICE."><i class="fa fa-search-plus"></i></a></span>
+                  <span class="folio-expand"><a href=<%= asset_path('portfolio/photoshare_details.png') %> data-lightbox="portfolio" data-title="PHOTO SHARING SERVICE."><i class="fa fa-search-plus"></i></a></span>
                 </div>
               </div>
             </div>
@@ -135,7 +141,8 @@
       <div class="col-sm-3">
         <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="800ms">
           <div class="folio-image">
-            <img class="img-responsive" src="/assets/portfolio/scehule.png" alt="">
+            <!--<img class="img-responsive" src="/assets/portfolio/scehule.png" alt="">-->
+            <%= image_tag "portfolio/scehule.png", class: "img-responsive", alt: 'logo' %>
           </div>
           <div class="overlay">
             <div class="overlay-content">
@@ -146,7 +153,7 @@
                 </div>
                 <div class="folio-overview">
                   <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                  <span class="folio-expand"><a href="/assets/portfolio/schedule_details.png" data-lightbox="portfolio" data-title="SCHEDULE SERVICE."><i class="fa fa-search-plus"></i></a></span>
+                  <span class="folio-expand"><a href=<%= asset_path('portfolio/schedule_details.png') %> data-lightbox="portfolio" data-title="SCHEDULE SERVICE."><i class="fa fa-search-plus"></i></a></span>
                 </div>
               </div>
             </div>
@@ -156,7 +163,8 @@
       <div class="col-sm-3">
         <div class="folio-item wow fadeInRightBig" data-wow-duration="1000ms" data-wow-delay="900ms">
           <div class="folio-image">
-            <img class="img-responsive" src="/assets/portfolio/sports.png" alt="">
+            <!--<img class="img-responsive" src="/assets/portfolio/sports.png" alt="">-->
+            <%= image_tag "portfolio/sports.png", class: "img-responsive", alt: 'logo' %>
           </div>
           <div class="overlay">
             <div class="overlay-content">
@@ -167,7 +175,7 @@
                 </div>
                 <div class="folio-overview">
                   <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                  <span class="folio-expand"><a href="/assets/portfolio/sports_details.png" data-lightbox="portfolio" data-title="SPORTS SERVICE."><i class="fa fa-search-plus"></i></a></span>
+                  <span class="folio-expand"><a href=<%= asset_path('portfolio/sports_details.png') %> data-lightbox="portfolio" data-title="SPORTS SERVICE."><i class="fa fa-search-plus"></i></a></span>
                 </div>
               </div>
             </div>
@@ -177,7 +185,8 @@
       <div class="col-sm-3">
         <div class="folio-item wow fadeInLeftBig" data-wow-duration="1000ms" data-wow-delay="1000ms">
           <div class="folio-image">
-            <img class="img-responsive" src="/assets/portfolio/chating.png" alt="">
+            <!--<img class="img-responsive" src="/assets/portfolio/chating.png" alt="">-->
+            <%= image_tag "portfolio/chating.png", class: "img-responsive", alt: 'logo' %>
           </div>
           <div class="overlay">
             <div class="overlay-content">
@@ -188,7 +197,7 @@
                 </div>
                 <div class="folio-overview">
                   <span class="folio-link"><a class="folio-read-more" href="#" data-single_url="portfolio-single.html" ><i class="fa fa-link"></i></a></span>
-                  <span class="folio-expand"><a href="/assets/portfolio/chating_details.png" data-lightbox="portfolio" data-title="CHATING SERVICE."><i class="fa fa-search-plus"></i></a></span>
+                  <span class="folio-expand"><a href=<%= asset_path('portfolio/chating_details.png') %> data-lightbox="portfolio" data-title="CHATING SERVICE."><i class="fa fa-search-plus"></i></a></span>
                 </div>
               </div>
             </div>
