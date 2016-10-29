@@ -1,0 +1,69 @@
+<section id="contact">
+
+  <div id="google-map" class="wow fadeIn" data-latitude="52.351317" data-longitude="4.915402" data-wow-duration="1000ms" data-wow-delay="400ms"></div>
+  <div id="contact-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+          <h2>Contact Us</h2>
+          <p>As we continue down this list, you’ll notice a growing trend of designers and developers utilizing maps to show locations. It’s really a fair trick, but what I like about Online development is their usage of an actual sky shot of their location. On top of that, they have used a really creative way to display all the necessary contact information.</p>
+        </div>
+      </div>
+      <div class="contact-form wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
+
+
+
+        <div class="row">
+          <div class="col-sm-6">
+            <%= form_for(:user, method:'get', remote:'true') do |f| %>
+            <!--<form id="main-contact-form" name="contact-form" method="post" action="#">-->
+                <div class="status alert alert-success"></div>
+              <div class="row  wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <!--<input type="text" name="name" class="form-control" placeholder="Name" required="required">-->
+                    <%= f.text_field :name, class:"form-control", required:"true", placeholder:'Name' %>
+                  </div>
+                </div>
+                <div class="col-sm-6">
+                  <div class="form-group">
+                    <%= f.text_field :email, class:"form-control", required:"true", placeholder:'Email Address' %>
+                    <!--<input type="email" name="email" class="form-control" placeholder="Email Address" required="required">-->
+
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <%= f.text_field :subject, class:"form-control", required:"true", placeholder:'Subject' %>
+                <!--<input type="text" name="subject" class="form-control" placeholder="Subject" required="required">-->
+              </div>
+              <div class="form-group">
+                <%= f.text_area :message, class:"form-control", required:"true",row:4, placeholder:'Enter your message' %>
+                <!--<textarea name="message" id="message" class="form-control" rows="4" placeholder="Enter your message" required="required"></textarea>-->
+              </div>
+              <div class="form-group">
+                <%= f.submit "Send Now", class:'btn-submit' %>
+
+                <!--<button type="submit" class="btn-submit">Send Now</button>-->
+              </div>
+            <!--</form>-->
+            <% end %>
+          </div>
+          <div class="col-sm-6">
+            <div class="contact-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+              <p>There's a lot going well for Gabri's contact page: the beautiful design, the calls-to-action, the clearly displayed contact information, and the form below the fold for visitors who want to get in touch with specific inquiries.</p>
+              <ul class="address">
+                <li><i class="fa fa-map-marker"></i> <span> Address:</span>President Steynplantsoen 1,1091 ND Amsterdam, Netherlands</li>
+                <li><i class="fa fa-phone"></i> <span> Phone:</span> +130 7244 9873  </li>
+                <li><i class="fa fa-envelope"></i> <span> Email:</span><a href="mailto:someone@yoursite.com"> bestsuperflycode@gmail.com</a></li>
+                <li><i class="fa fa-globe"></i> <span> Website:</span> <a href="#">www.gabridoda.com</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+</section><!--/#contact-->

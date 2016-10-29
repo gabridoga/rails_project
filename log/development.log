@@ -161,3 +161,2305 @@ Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bd
 
 
 Started GET "/assets/features-bg.jpg" for 127.0.0.1 at 2016-10-28 11:21:22 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 485ms (Views: 485.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.min.self-46e643c14ddc2a4ea7a33163bb7a5a721a1b3ca9392b7150e8cf65d6a1fb67e1.css?body=1" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+
+
+Started GET "/assets/application.self-e8ec97ac0fbaac9655f13489b5362ad769e8c59f7c0ab8fdffc80be645af1e1f.css?body=1" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+
+
+Started GET "/images/feature-bg.jpg" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+
+ActionController::RoutingError (No route matches [GET] "/images/feature-bg.jpg"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (110.1ms)
+
+
+Started GET "/fontawesome-webfont.woff2?v=4.3.0" for 127.0.0.1 at 2016-10-28 19:39:07 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fontawesome-webfont.woff2"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (110.9ms)
+
+
+Started GET "/fontawesome-webfont.woff?v=4.3.0" for 127.0.0.1 at 2016-10-28 19:39:08 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fontawesome-webfont.woff"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (71.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.3ms)
+
+
+Started GET "/fontawesome-webfont.ttf?v=4.3.0" for 127.0.0.1 at 2016-10-28 19:39:08 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fontawesome-webfont.ttf"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (70.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (49.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (110.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+Processing by HomeController#index as HTML
+  Rendered home/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 42ms (Views: 41.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-79bfc22c0ab595a07e4a53c208414a4f2325960e7f142117809dedc07d7c9113.css?body=1" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+
+
+Started GET "/assets/font-awesome.min.self-46e643c14ddc2a4ea7a33163bb7a5a721a1b3ca9392b7150e8cf65d6a1fb67e1.css?body=1" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+
+
+Started GET "/assets/features-bg-910d71a1aa83e6746f1b60345fecc17cdbb486a5e0cc8d600a6b3ac6ee36af5b.jpg" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+
+
+Started GET "/fontawesome-webfont.woff2?v=4.3.0" for 127.0.0.1 at 2016-10-28 19:39:28 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fontawesome-webfont.woff2"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (77.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.0ms)
+
+
+Started GET "/fontawesome-webfont.woff?v=4.3.0" for 127.0.0.1 at 2016-10-28 19:39:29 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fontawesome-webfont.woff"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.2ms)
+
+
+Started GET "/fontawesome-webfont.ttf?v=4.3.0" for 127.0.0.1 at 2016-10-28 19:39:29 +0200
+
+ActionController::RoutingError (No route matches [GET] "/fontawesome-webfont.ttf"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (112.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 19:54:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (1983.7ms)
+  Rendered home/_service.html.erb (0.5ms)
+  Rendered home/_about.html.erb (0.3ms)
+  Rendered home/_portfolio.html.erb (0.4ms)
+  Rendered home/_team.html.erb (3.0ms)
+  Rendered home/_feature.html.erb (0.2ms)
+  Rendered home/_pricing.html.erb (0.3ms)
+  Rendered home/_twiter.html.erb (0.3ms)
+  Rendered home/_blog.html.erb (1.1ms)
+  Rendered home/_contact.html.erb (6.3ms)
+  Rendered home/_footer.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (2018.8ms)
+Completed 200 OK in 2123ms (Views: 2114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.min.self-2be89d406e3bdee9f3eae1ff9f1b7a6f5546eda3ab399f93502c0769947c761b.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/lightbox.self-865e32eb6fea14d1a915da4a1812160d80d7490528e1efac33e40e9062ca476e.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/main.self-9a194ac5dcad85abe4fc58ee59046aaf2b6a9d98374234e491b3d48cfd54f202.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/bootstrap.self-8fc87503dfb2c4b0b80eb89364111bec62a8572a13c3df5cdb0c24a3a3932917.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-1c2c337c59a145c82fc6a39c4e209237f58dc568ace85a2dc51913ea7eab2a00.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/supersized.shutter.self-272bb4fc745402f31ae6a47091d2e75649b1d7caae9840853306d983b5f0d1b1.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/preset1.self-ced9b008b142e6d8ce589f7278c5c968ee55868c65bd3806408245cee7f19d4e.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/supersized.self-754a3d74fface4a863ec36c1076ae8e5ea99ad1508009caf9b3f65177032b78c.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/application.self-79bfc22c0ab595a07e4a53c208414a4f2325960e7f142117809dedc07d7c9113.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/animate.min.css" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/responsive.css" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/jquery.self-dc374037b14090dd97def7452218f5606a2fc85ef353989fda11e1294b7dd8de.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/bootstrap.min.self-d66e555f160df017adf1ca16a36cd609a36d49c51637e365c5b8847d0065fa40.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/jquery.countTo.self-ee4a99978f49792845630da2169bf98164f013c7c88502d1928bd4c2c9628fab.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/html5shiv.self-1f432d487ed3790f765994dd831280ac2373eb894c0c2cec7b1fc3372f1ac6db.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/jquery.inview.min.self-e2bc5928c62fdd354620d55dfcf27d56070af68c2b60e11a5d5ee9a99fd70826.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/lightbox.min.self-a69efde1189d858f0ca8c87eb858fdc1059e3e6e71de62fa18f76d0e9e184f61.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/respond.min.self-ce6956f02c4ea8da8c7946401a8c7eeae9f685c7375faf62e00be01a31aac68f.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/mousescroll.self-f90d927787467e1035c72bc75628bdcf51c6a61640f446da512f50d2619beac2.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/smoothscroll.self-f746cc3df89a2f5ef2a18f5728434b1a6a68736d5fdaaeef00a4072c99d6dda0.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/wow.min.self-cfd8d8dcba219115ffe6ff06ca6ddbc6ba5c0425837388872b803223747dc22a.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/jquery.fancybox-media.self-74533021e73f14643354f56c8b5f7f05e4d66e613f7993760cdc8c53d7dadaec.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/jquery.fancybox.pack.self-8d1cf7d3c5cc0a6cb9e7c0c50afac3b920edb25e72de9a2fe7e8f81ac964137e.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/application.self-0b8f4dffc680cfdef8ada083e14fdf5eb01e482f1d7e02468f262cc317fe0329.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/supersized.3.2.7.min.self-317f7e79a549b37821ca8668fd480223a246c98e9cdef144d51ae098f4079a18.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/jquery.tweet.self-648676088c863e222276acb1343f60d7afd26d15b83c9481da99b9056ea388be.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/waypoints.self-b50f0c72a6f877c1e656c1eabd93b8cb4f237df8c7b67a9bbfcefbf12d951aeb.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/waypoints-sticky.self-0ad49cb9ba3ec11272076105667933a22b46016e42aaf08f083975aec1200926.js?body=1" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/logo-1facdcba195ba6d78e224f0ca84e557df9a46ece1e3ec2e001480432ccdd5b73.png" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/team/1-dc3a0bfb91616006e9ec6c5b2b7dff394831370c732736e856b7999f89fbf32c.jpg" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/team/2-2805b041764f678e4bac837411e61d7463c4f7e910024439b5a34974a39ca862.jpg" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/team/3-80e91188dd3205d42795848eb3cda43ad85e81c88f159d82da4554f6ef2438aa.jpg" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/team/4-3f1e44bf94c0a59282afcd5a42061410df5c3dbf280741713cad95a43427fbdd.jpg" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/blog/2.jpg" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/blog/3.jpg" for 127.0.0.1 at 2016-10-28 19:54:53 +0200
+
+
+Started GET "/assets/font-awesome.min.self-2be89d406e3bdee9f3eae1ff9f1b7a6f5546eda3ab399f93502c0769947c761b.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:54 +0200
+
+
+Started GET "/assets/lightbox.min.map" for 127.0.0.1 at 2016-10-28 19:54:54 +0200
+
+ActionController::RoutingError (No route matches [GET] "/assets/lightbox.min.map"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (82.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (119.3ms)
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/features-bg-910d71a1aa83e6746f1b60345fecc17cdbb486a5e0cc8d600a6b3ac6ee36af5b.jpg" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (102.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (121.7ms)
+
+
+Started GET "/assets/bootstrap.self-8fc87503dfb2c4b0b80eb89364111bec62a8572a13c3df5cdb0c24a3a3932917.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/about-bg.jpg" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/features-bg.jpg" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/twitter-bg.jpg" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/contact-bg.jpg" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/lightbox/close.png" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/jquery.fancybox.self-1c2c337c59a145c82fc6a39c4e209237f58dc568ace85a2dc51913ea7eab2a00.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/lightbox.self-865e32eb6fea14d1a915da4a1812160d80d7490528e1efac33e40e9062ca476e.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/main.self-9a194ac5dcad85abe4fc58ee59046aaf2b6a9d98374234e491b3d48cfd54f202.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/preset1.self-ced9b008b142e6d8ce589f7278c5c968ee55868c65bd3806408245cee7f19d4e.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/assets/supersized.self-754a3d74fface4a863ec36c1076ae8e5ea99ad1508009caf9b3f65177032b78c.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 19:54:55 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (114.5ms)
+
+
+Started GET "/assets/supersized.shutter.self-272bb4fc745402f31ae6a47091d2e75649b1d7caae9840853306d983b5f0d1b1.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:56 +0200
+
+
+Started GET "/assets/application.self-79bfc22c0ab595a07e4a53c208414a4f2325960e7f142117809dedc07d7c9113.css?body=1" for 127.0.0.1 at 2016-10-28 19:54:56 +0200
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 19:54:56 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (130.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (1.2ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (0.0ms)
+  Rendered home/_team.html.erb (2.3ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (0.7ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 90ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-8ef38c233327bee0aef6173e9056b42fb906d5eea5025d54c64b0f20cb4f5102.css?body=1" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/animate.min.css" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/responsive.css" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/blog/2.jpg" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/blog/3.jpg" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/features-bg.jpg" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/twitter-bg.jpg" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/about-bg.jpg" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/contact-bg.jpg" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/lightbox/close.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 19:56:50 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (56.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (126.2ms)
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 19:56:51 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (75.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (121.3ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-28 19:56:52 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 19:58:00 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (1.1ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (0.0ms)
+  Rendered home/_team.html.erb (2.2ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (0.6ms)
+  Rendered home/_contact.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (14.7ms)
+Completed 200 OK in 61ms (Views: 60.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/animate.min.css" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/responsive.css" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/blog/2.jpg" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/blog/3.jpg" for 127.0.0.1 at 2016-10-28 19:58:01 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/assets/about-bg.jpg" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/assets/twitter-bg.jpg" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/assets/features-bg.jpg" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/assets/contact-bg.jpg" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/assets/lightbox/close.png" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 19:58:02 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (116.4ms)
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 19:58:03 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (73.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (50.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (113.2ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-28 19:58:03 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (1.2ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (0.0ms)
+  Rendered home/_team.html.erb (2.3ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (0.6ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 61ms (Views: 61.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.min.css" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/responsive.css" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/blog/2.jpg" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/blog/3.jpg" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/about-bg.jpg" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/features-bg.jpg" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/twitter-bg.jpg" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/contact-bg.jpg" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/lightbox/close.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 19:58:34 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (72.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (120.6ms)
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 19:58:35 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (52.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (117.2ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-28 19:58:35 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (1.0ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (0.0ms)
+  Rendered home/_team.html.erb (2.0ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (0.6ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 199ms (Views: 198.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.fancybox.self-124affadf7f3affed9c8730206e466c4095f33ed659a0c765770c8de233c8e94.css?body=1" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/animate.min.css" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/responsive.css" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/blog/2.jpg" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/blog/3.jpg" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/about-bg.jpg" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/features-bg.jpg" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/twitter-bg.jpg" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/contact-bg.jpg" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/lightbox/close.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 20:03:43 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (79.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (58.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (120.8ms)
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 20:03:44 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (119.1ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-28 20:03:45 +0200
+
+
+Started GET "/assets/portfolio/booking_details.png" for 127.0.0.1 at 2016-10-28 20:03:53 +0200
+
+
+Started GET "/assets/portfolio/dating_details.png" for 127.0.0.1 at 2016-10-28 20:03:53 +0200
+
+
+Started GET "/assets/portfolio/traveling_details.png" for 127.0.0.1 at 2016-10-28 20:03:53 +0200
+
+
+Started GET "/assets/portfolio/location_details.png" for 127.0.0.1 at 2016-10-28 20:04:04 +0200
+
+
+Started GET "/assets/portfolio/location_details.png" for 127.0.0.1 at 2016-10-28 20:04:21 +0200
+
+
+Started GET "/assets/portfolio/photoshare_details.png" for 127.0.0.1 at 2016-10-28 20:04:21 +0200
+
+
+Started GET "/assets/portfolio/booking_details.png" for 127.0.0.1 at 2016-10-28 20:04:23 +0200
+
+
+Started GET "/assets/portfolio/traveling_details.png" for 127.0.0.1 at 2016-10-28 20:04:24 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (6.4ms)
+  Rendered home/_service.html.erb (0.1ms)
+  Rendered home/_about.html.erb (0.3ms)
+  Rendered home/_portfolio.html.erb (0.0ms)
+  Rendered home/_team.html.erb (4.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (0.8ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 230ms (Views: 229.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/lightbox.self-6276e570343dfe00e7729fe2d2bdb3906303ffe0f33a3b2b9f70479a7225b6c3.css?body=1" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/animate.min.css" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/responsive.css" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-28 22:13:44 +0200
+
+
+Started GET "/assets/blog/2.jpg" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/blog/3.jpg" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/about-bg.jpg" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/twitter-bg.jpg" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/features-bg.jpg" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/contact-bg.jpg" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/lightbox/close-872f9972ba910eec0276421e5110c0f77e6786011310a1d866d2c532ae140a16.png" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/lightbox/loading-a532ff61efb0bbc07ac705bb7715b60cb9a495c0def29db0a5f0b2f7dd1bd472.gif" for 127.0.0.1 at 2016-10-28 22:13:45 +0200
+
+
+Started GET "/assets/lightbox/prev-7fd9273f20fdb1229c224341271a119020a5eee74ccf6b4605730917c864caf2.png" for 127.0.0.1 at 2016-10-28 22:13:46 +0200
+
+
+Started GET "/assets/lightbox/next-15b869b02c6fbaa8c6c26445a2dd2d9bad80fd27b1409f8179e5dd89dc89d90a.png" for 127.0.0.1 at 2016-10-28 22:13:46 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-28 22:13:46 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-28 22:13:46 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-28 22:13:46 +0200
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 22:13:46 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (79.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (54.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (126.5ms)
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 22:13:46 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (79.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (118.2ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-28 22:13:47 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 23:03:14 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (438.3ms)
+  Rendered home/index.html.erb within layouts/application (442.7ms)
+Completed 500 Internal Server Error in 459ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "...t_path(about-bg": expected ")", was ".jpg));"):
+    42:           <span class="icon-bar"></span>
+    43:         </button>
+    44:         <a class="navbar-brand" href="index.html">
+    45:           <h1><%= image_tag 'logo.png',class:'img-responsive',alt:'logo' %></h1>
+    46:         </a>
+    47:       </div>
+    48:       <div class="collapse navbar-collapse">
+  app/assets/stylesheets/main.scss:319
+  app/views/home/_header.html.erb:45:in `_app_views_home__header_html_erb___3964123705951187270_70201545737080'
+  app/views/home/index.html.erb:1:in `_app_views_home_index_html_erb___234535366386244542_70201541447760'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (67.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (114.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (240.4ms)
+  Rendered home/_service.html.erb (0.4ms)
+  Rendered home/_about.html.erb (0.4ms)
+  Rendered home/_portfolio.html.erb (0.5ms)
+  Rendered home/_team.html.erb (2.9ms)
+  Rendered home/_feature.html.erb (0.3ms)
+  Rendered home/_pricing.html.erb (0.3ms)
+  Rendered home/_twiter.html.erb (0.2ms)
+  Rendered home/_blog.html.erb (1.1ms)
+  Rendered home/_contact.html.erb (6.7ms)
+  Rendered home/_footer.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (264.5ms)
+Completed 200 OK in 368ms (Views: 367.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/main.self-29f62e01cf43b5ccff7958a4565fde1d5da9952b6d9370456261862c4ea1eb3b.css?body=1" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/animate.min.css" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/responsive.css" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/blog/2.jpg" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/blog/3.jpg" for 127.0.0.1 at 2016-10-28 23:04:26 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-28 23:04:27 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-28 23:04:27 +0200
+
+
+Started GET "/assets/about-bg-b304f12d6f9c3a3c0f06f1db519cba929c484e97e54e6dc5531452b244cb5574.jpg" for 127.0.0.1 at 2016-10-28 23:04:27 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-28 23:04:28 +0200
+
+
+Started GET "/assets/twitter-bg-39706a3edf4a5e464dc243e11255e551129db0d4180aa9c09344b7748d74daf8.jpg" for 127.0.0.1 at 2016-10-28 23:04:28 +0200
+
+
+Started GET "/assets/contact-bg-f4d45e582af84d06c7c65cfcf5c6d47b8d3e7636215e42e6c0a1aee5bdd38f8d.jpg" for 127.0.0.1 at 2016-10-28 23:04:28 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-28 23:04:28 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-28 23:04:28 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-28 23:04:28 +0200
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 23:04:28 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (84.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (55.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (131.3ms)
+
+
+Started GET "/img/progress.gif" for 127.0.0.1 at 2016-10-28 23:04:28 +0200
+
+ActionController::RoutingError (No route matches [GET] "/img/progress.gif"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (78.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (51.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (6.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (122.2ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-28 23:04:30 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (1.2ms)
+  Rendered home/_service.html.erb (0.1ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (0.3ms)
+  Rendered home/_team.html.erb (3.0ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (0.9ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 152ms (Views: 151.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/animate.min.css" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/style.css" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/font-awesome.min.css" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/responsive.css" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/blog/2.jpg" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/blog/3.jpg" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-28 23:05:57 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-28 23:06:00 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 04:30:09 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (368.9ms)
+  Rendered home/_service.html.erb (0.4ms)
+  Rendered home/_about.html.erb (0.3ms)
+  Rendered home/_portfolio.html.erb (0.4ms)
+  Rendered home/_team.html.erb (3.2ms)
+  Rendered home/_feature.html.erb (0.4ms)
+  Rendered home/_pricing.html.erb (0.3ms)
+  Rendered home/_twiter.html.erb (0.2ms)
+  Rendered home/_blog.html.erb (1.2ms)
+  Rendered home/_contact.html.erb (6.4ms)
+  Rendered home/_footer.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (400.7ms)
+Completed 200 OK in 514ms (Views: 505.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/style.self-47fc3cab983e651331529826776118a48b74f3a60f935f1e3b7e150e635eb67f.css?body=1" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/application.self-185e690424eb6b21bab405b93668b4762e37f6fc2fe3fe65ddd0d0f578d8a0f7.css?body=1" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/animate.min.css" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/responsive.css" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/blog/2.jpg" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/blog/3.jpg" for 127.0.0.1 at 2016-10-29 04:30:10 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-29 04:30:11 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-29 04:30:11 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-29 04:30:11 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-29 04:30:11 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-29 04:30:11 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 04:30:11 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 04:30:12 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 04:35:04 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (483.2ms)
+  Rendered home/_service.html.erb (0.3ms)
+  Rendered home/_about.html.erb (1.1ms)
+  Rendered home/_portfolio.html.erb (0.9ms)
+  Rendered home/_team.html.erb (5.2ms)
+  Rendered home/_feature.html.erb (0.4ms)
+  Rendered home/_pricing.html.erb (0.9ms)
+  Rendered home/_twiter.html.erb (0.6ms)
+  Rendered home/_blog.html.erb (7.0ms)
+  Rendered home/_contact.html.erb (6.9ms)
+  Rendered home/_footer.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (524.6ms)
+Completed 200 OK in 661ms (Views: 645.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1c85fb27add02cf8407d1a61a0b47882861c596e0af880c6f32b8199af022533.css?body=1" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/portfolio/traveling.png" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/bootstrap.min.css" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/responsive.css" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/preset1.css" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/animate.min.css" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/portfolio/booking.png" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/portfolio/dating.png" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/portfolio/locationservice.png" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/portfolio/photoshare.png" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/portfolio/scehule.png" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/portfolio/sports.png" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/portfolio/chating.png" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/blog/1.jpg" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/blog/2.jpg" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/blog/3.jpg" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/slider/2.jpg" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/slider/3.jpg" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/slider/1.jpg" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/lightbox/prev.png" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/lightbox/next.png" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/lightbox/loading.gif" for 127.0.0.1 at 2016-10-29 04:35:05 +0200
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 04:35:12 +0200

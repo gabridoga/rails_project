@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>RailsProject</title>
+  <title>GabriDoga</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <!--<%= javascript_include_tag 'http://maps.google.com/maps/api/js?key=AIzaSyABXSjigpBWZCdRKUUckLeR3fknX2XXGNI&sensor=true', 'data-turbolinks-track' => true %>-->
   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
   <%= csrf_meta_tags %>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>GabriDoga</title>
+  <%= favicon_link_tag 'favicon.ico' %>
 </head>
 <body>
-
 <%= yield %>
-
 </body>
 </html>
