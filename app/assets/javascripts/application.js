@@ -23,7 +23,6 @@
 //= require respond.min
 //= require smoothscroll
 //= require wow.min
-//= require jquery.fancybox-media
 //= require jquery.fancybox.pack
 //= require jquery.tweet
 //= require supersized.3.2.7.min
