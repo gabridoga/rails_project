@@ -3723,3 +3723,37 @@ Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca
 
 
 Started GET "/assets/application.self-64a8f51f0b3e438f2203cc222031fa16e07b8071dbe0f1d7aad1147678508e3a.css?body=1" for 127.0.0.1 at 2016-10-29 16:07:54 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 19:33:21 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (339.7ms)
+  Rendered home/_service.html.erb (0.6ms)
+  Rendered home/_about.html.erb (0.6ms)
+  Rendered home/_portfolio.html.erb (11.8ms)
+  Rendered home/_team.html.erb (2.6ms)
+  Rendered home/_feature.html.erb (0.3ms)
+  Rendered home/_pricing.html.erb (0.5ms)
+  Rendered home/_twiter.html.erb (0.2ms)
+  Rendered home/_blog.html.erb (2.6ms)
+  Rendered home/_contact.html.erb (19.4ms)
+  Rendered home/_footer.html.erb (1.4ms)
+  Rendered home/index.html.erb within layouts/application (441.2ms)
+Completed 200 OK in 658ms (Views: 630.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-29 19:33:22 +0200
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (3.0ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (10.4ms)
+  Rendered home/_team.html.erb (2.3ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.5ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 98ms (Views: 97.9ms | ActiveRecord: 0.0ms)

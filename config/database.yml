@@ -5,8 +5,8 @@ default: &default
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
   host: localhost
-  username: postgres
-  password: root
+  username: rails
+  password: yghV00YeH4
 
 development:
   <<: *default
@@ -23,4 +23,4 @@ production:
   <<: *default
   database: rails_project_production
   username: postgres
-  password: root
+  password: yghV00YeH4
