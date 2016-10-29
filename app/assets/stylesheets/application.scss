@@ -13,13 +13,14 @@
  *= require style
  *= require jquery.fancybox
  *= require lightbox
+ *= require bootstrap.min
+ *= require animate.min
+ *= require responsive
+ *= require preset1
  *= require_tree .
  *= require_self
  */
-@import "bootstrap.min.css";
-@import "animate.min.css";
-@import "responsive.css";
-@import "preset1.css";
+
 //.container{
 //    background: url(image_path('features-bg.jpg'));
 //}
