@@ -1,4 +1,11 @@
 Rails.application.routes.draw do
+  get 'admin/register'
+
+  get 'admin/login'
+
+  get 'admin/profile'
+
+  devise_for :users
   get 'home/index'
 
   root 'home#index'

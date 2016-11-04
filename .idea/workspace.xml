@@ -2,8 +2,121 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="03b22bff-df72-4224-9a40-26c00efabbcb" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_portfolio.html.erb" afterPath="$PROJECT_DIR$/app/views/home/_portfolio.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-TpDf50GGZ08EJp1mqHtJkozsb2BBAJSnoGfiRq7rz4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-TpDf50GGZ08EJp1mqHtJkozsb2BBAJSnoGfiRq7rz4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-fcWo1bcCqgOhmSSkitb1jdgTaNbrjTJEh-FkbydvI8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/-fcWo1bcCqgOhmSSkitb1jdgTaNbrjTJEh-FkbydvI8.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/00Aa7MAo3J09TZTH5er38OetQoztYheiKYQkat4NVUw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/00Aa7MAo3J09TZTH5er38OetQoztYheiKYQkat4NVUw.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0kZIHUjsc61QvM_g42M-GjUWfOObOzQfUU6RgCWPzV8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0kZIHUjsc61QvM_g42M-GjUWfOObOzQfUU6RgCWPzV8.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0s938iaOX2NBJ-elmk5V7j6XyYC7WxwS57x4aSiyH54.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/0s938iaOX2NBJ-elmk5V7j6XyYC7WxwS57x4aSiyH54.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1kAyoAsvrWj_ldVuFoVbVwtYifEtTvBfyQRAJ-XeQXw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1kAyoAsvrWj_ldVuFoVbVwtYifEtTvBfyQRAJ-XeQXw.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1y9OYIwPhjNHHNZWVcrLpc5sBkMcNEMgSQU2X2QG74I.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/1y9OYIwPhjNHHNZWVcrLpc5sBkMcNEMgSQU2X2QG74I.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2Opvj58B4P3owhmlFaWXMv88lrvH42GOk1eydgXmRiQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2Opvj58B4P3owhmlFaWXMv88lrvH42GOk1eydgXmRiQ.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2PeklgajK_d-Xy1YxbIPN_nfR129yEVdatbwyoycGh4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2PeklgajK_d-Xy1YxbIPN_nfR129yEVdatbwyoycGh4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2cjCUV2SoZNb4a7U-CVWPBsrSAT_805cWMBQqcDuR8U.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2cjCUV2SoZNb4a7U-CVWPBsrSAT_805cWMBQqcDuR8U.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2yyiDGsy4OjNPlLZIdN0O5UyR78b8KlwjBrp6XyhfLM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/2yyiDGsy4OjNPlLZIdN0O5UyR78b8KlwjBrp6XyhfLM.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3N-5uMHnvU8cMTqlq9eFMKMgJlRNGGs5zZ-bVnYcI64.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3N-5uMHnvU8cMTqlq9eFMKMgJlRNGGs5zZ-bVnYcI64.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3PgFrKg1eC5hrRHDXi5ClVIZmPctX33JUKF_72dW0D4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/3PgFrKg1eC5hrRHDXi5ClVIZmPctX33JUKF_72dW0D4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4dVqixYWZpzgnh3gfS78vxiP8Ee5yHMjbekmA70Rt54.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/4dVqixYWZpzgnh3gfS78vxiP8Ee5yHMjbekmA70Rt54.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5NGeW5nQ_x2gllAsUXpmMn-3QrLml0NW2delSjLCJ70.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5NGeW5nQ_x2gllAsUXpmMn-3QrLml0NW2delSjLCJ70.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5QJE0Kjbc3x1bdHF49WQyVj09iTYG5Oz4m1H3sXRVBY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/5QJE0Kjbc3x1bdHF49WQyVj09iTYG5Oz4m1H3sXRVBY.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6__Cw0noBFD36rk39eBc3kHSwzjE6QfUv3hGvtky9K4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/6__Cw0noBFD36rk39eBc3kHSwzjE6QfUv3hGvtky9K4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7B5KG0iUE_hcxY377eFWAQh3T71uFW3SFbYTy6rmRbY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7B5KG0iUE_hcxY377eFWAQh3T71uFW3SFbYTy6rmRbY.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7w8X62k1lFMOq1oCdyc0R0zNSdPbNPJIKP3MBtBoJ3E.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/7w8X62k1lFMOq1oCdyc0R0zNSdPbNPJIKP3MBtBoJ3E.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8S_EHfiZqfTl36-X-WqxUP6Z86e_0Y5EHoCynhcPghY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/8S_EHfiZqfTl36-X-WqxUP6Z86e_0Y5EHoCynhcPghY.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/A1wil5OF7WgqKBcaiReXjyLxVclz-hTVVpIaBIJEkZc.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/A1wil5OF7WgqKBcaiReXjyLxVclz-hTVVpIaBIJEkZc.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/A4GIClE8XEl_Y7lXHw_gKCwWZVACAc8nVPtlYZi7Q3s.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/A4GIClE8XEl_Y7lXHw_gKCwWZVACAc8nVPtlYZi7Q3s.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ad04u9SWXLZGZxBYX0j6l6hoXx38ILlyhj93I2HcmrU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Ad04u9SWXLZGZxBYX0j6l6hoXx38ILlyhj93I2HcmrU.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/BXpwBYYaNFAD0p5Ip1RH7A2m0n_iBVtFSFRtUkJz57c.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/BXpwBYYaNFAD0p5Ip1RH7A2m0n_iBVtFSFRtUkJz57c.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/C5-R2c3Hf6SV8vD9sz1vs_vkn_aJEAtK4g4hXVFVEkM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/C5-R2c3Hf6SV8vD9sz1vs_vkn_aJEAtK4g4hXVFVEkM.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Cx7-qNVjaDm3w4WZsE2WiI1xrYkq_Gutj1wQFX9Siyk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Cx7-qNVjaDm3w4WZsE2WiI1xrYkq_Gutj1wQFX9Siyk.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DGqGDDIRfmK1xaRL7Vue62dQmRZGi53U56en2ce8qA8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DGqGDDIRfmK1xaRL7Vue62dQmRZGi53U56en2ce8qA8.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DW9pvqc9nUWiqV_sMES-m8gk8c9R41mCx5aUQ3QHJKE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/DW9pvqc9nUWiqV_sMES-m8gk8c9R41mCx5aUQ3QHJKE.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/FSPE9ORsDKiT5nwBNK0PgUpINsQJsBrrZJdmI5bfL4s.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/FSPE9ORsDKiT5nwBNK0PgUpINsQJsBrrZJdmI5bfL4s.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/FwiXjnLLgGTbJ2tZcnFWOp30FIQFbt42kxicUMneUFU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/FwiXjnLLgGTbJ2tZcnFWOp30FIQFbt42kxicUMneUFU.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/GUu68qScpIxYb_ojcLyHmaK1VHNH0XDDpPKOe0rZAhU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/GUu68qScpIxYb_ojcLyHmaK1VHNH0XDDpPKOe0rZAhU.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HAA5_vHVTyxFPMaZ-GEMG3jWWSxjwMw_dT8Q1KNglEk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/HAA5_vHVTyxFPMaZ-GEMG3jWWSxjwMw_dT8Q1KNglEk.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IGGHpYWH6H2YvsxHbnMfA3EJSi-jI4ki2NtqvX5dY84.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/IGGHpYWH6H2YvsxHbnMfA3EJSi-jI4ki2NtqvX5dY84.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Jvx97eLzkFCWuey0Q0BbkTnzEzXDxhdv_FbKiekyn0s.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Jvx97eLzkFCWuey0Q0BbkTnzEzXDxhdv_FbKiekyn0s.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/KiB1kXY1FuZfCk1I_7_6dqKEDGSdbRg-9wahX7hiprs.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/KiB1kXY1FuZfCk1I_7_6dqKEDGSdbRg-9wahX7hiprs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/L-Ln5FatcaXPJZKaR0p3zYtoVUd3LNZ-Ni-FD_SfzWg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/L-Ln5FatcaXPJZKaR0p3zYtoVUd3LNZ-Ni-FD_SfzWg.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/N4XVIBuAdVavX5452LyiEeR9BjlAP7lQHwcfM3P2v7w.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/N4XVIBuAdVavX5452LyiEeR9BjlAP7lQHwcfM3P2v7w.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/OfJXeVBXv4OvDqyeugGgH705fz4S8PF-3nlpjjgF9Sk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/OfJXeVBXv4OvDqyeugGgH705fz4S8PF-3nlpjjgF9Sk.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Omo4JWIqfSapzDyCvcvgMCquaIc3kkMQOXMDpbbT7PQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Omo4JWIqfSapzDyCvcvgMCquaIc3kkMQOXMDpbbT7PQ.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/P5aKKx6p8oHivd2JX7zNsFmbX1iTtwkcz1XX1nXUok4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/P5aKKx6p8oHivd2JX7zNsFmbX1iTtwkcz1XX1nXUok4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/P5bjL6cNKB7O6vjbJ1d6azziD0TcK7hEJlMck3laKeE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/P5bjL6cNKB7O6vjbJ1d6azziD0TcK7hEJlMck3laKeE.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Q5msdWdSzR31djQCfKevTrpAD4m7-0aH86Zj9krflOk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Q5msdWdSzR31djQCfKevTrpAD4m7-0aH86Zj9krflOk.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QGvRSuvFhEwIAokep3mrgbkPJ95PIpnylZEw9mjZeQU.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QGvRSuvFhEwIAokep3mrgbkPJ95PIpnylZEw9mjZeQU.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QsgN29_zMH1XPbNlIVNqImnxushV-30mBn_T41GzTjo.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/QsgN29_zMH1XPbNlIVNqImnxushV-30mBn_T41GzTjo.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R-w50BPZ5ml4RB_1zp7f10WWG08FDzqt0kW3dR7Y1LI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R-w50BPZ5ml4RB_1zp7f10WWG08FDzqt0kW3dR7Y1LI.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R4ttQ3_pyQ0jT3krRfCYHNRf6wizeJ1BT5-cLK0VN_c.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R4ttQ3_pyQ0jT3krRfCYHNRf6wizeJ1BT5-cLK0VN_c.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R9ZdfHrmyCG7sagEm6NokwspsPiB0i6nTFATpEQ6mLQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/R9ZdfHrmyCG7sagEm6NokwspsPiB0i6nTFATpEQ6mLQ.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/RaxbhG-73yDEckfovhJ6BxKJ25bEBJkGU3nQqJ11XZ0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/RaxbhG-73yDEckfovhJ6BxKJ25bEBJkGU3nQqJ11XZ0.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/S2sqsqOzhnQAIWvvg9N2UdL3yp3SAJ60hOwpkoKLOEg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/S2sqsqOzhnQAIWvvg9N2UdL3yp3SAJ60hOwpkoKLOEg.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/TBdlF8ZykWEavfRafM3H4O90AL-JfTQg2Uajq7Q9ZXs.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/TBdlF8ZykWEavfRafM3H4O90AL-JfTQg2Uajq7Q9ZXs.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UQ-BSzoMZt9n3KXWBtBUUmbqeTtwadjVqVdeXtSoqOo.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/UQ-BSzoMZt9n3KXWBtBUUmbqeTtwadjVqVdeXtSoqOo.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Vm9e3QQD9TyOTEKA3eDXW6gJbKlh04WG7UbHZUyLc_8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Vm9e3QQD9TyOTEKA3eDXW6gJbKlh04WG7UbHZUyLc_8.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Wnfi3TGKxroxbj250cELuH17ciXq7bHMmVrJZnnolac.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Wnfi3TGKxroxbj250cELuH17ciXq7bHMmVrJZnnolac.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/XAoAYFBQ5--9I2ctcoiHdXqUjIuCNbU6h6FBdpOsTqY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/XAoAYFBQ5--9I2ctcoiHdXqUjIuCNbU6h6FBdpOsTqY.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Xb_LIhOOe1Z061Qal3dIcb7vzmJXi2pKwvNJORB9oRY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Xb_LIhOOe1Z061Qal3dIcb7vzmJXi2pKwvNJORB9oRY.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Y-0M9c5cZjmqJG0MYm4orPawtjNqa-o-m-D_rV-KEf0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/Y-0M9c5cZjmqJG0MYm4orPawtjNqa-o-m-D_rV-KEf0.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YvEqxmnM6OSG9kmUJGyOvf6yXSDsuGq4qo2qhWFEXy8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/YvEqxmnM6OSG9kmUJGyOvf6yXSDsuGq4qo2qhWFEXy8.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_69CF4A-4Q4HkV5IynN93GCxGr9JIfXZy12nHMJ9vJA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/_69CF4A-4Q4HkV5IynN93GCxGr9JIfXZy12nHMJ9vJA.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/a9byyXj9w18dg781_3kQOt0aQAkxHfecAFEqgz4YUc4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/a9byyXj9w18dg781_3kQOt0aQAkxHfecAFEqgz4YUc4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/b4x6ufWh9Ce_ACHYjFgFI07Cwrx7tdrNg8Wnan1gnuI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/b4x6ufWh9Ce_ACHYjFgFI07Cwrx7tdrNg8Wnan1gnuI.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/br5PRKnY09NqvGjsgFtn3OHVdzOSi3CU5J-uEBwTfMI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/br5PRKnY09NqvGjsgFtn3OHVdzOSi3CU5J-uEBwTfMI.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/covgD4z-FmiE5HYSeLBHmh26Z5d-ily1VtU0Y943-Tk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/covgD4z-FmiE5HYSeLBHmh26Z5d-ily1VtU0Y943-Tk.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dfLlKMMhew7ZJSbs7YmsZ1c6SnXdJB_dEHNMSvKIgw8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/dfLlKMMhew7ZJSbs7YmsZ1c6SnXdJB_dEHNMSvKIgw8.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eRWKovVzUaRCdfOXxbW6BjLGMjjNBIs9Clb3MnQ5H-w.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/eRWKovVzUaRCdfOXxbW6BjLGMjjNBIs9Clb3MnQ5H-w.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/fFGBWa-dOf3XPdUzTECRBdoPijJqkGA0UujXX-oFVno.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/fFGBWa-dOf3XPdUzTECRBdoPijJqkGA0UujXX-oFVno.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/fPhmlKcxyL8MjWOchh3NOMCXC2bXlERos7g0nEJLJVA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/fPhmlKcxyL8MjWOchh3NOMCXC2bXlERos7g0nEJLJVA.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gTC13k-_pje-P_LWe83hQ9_3C5cinGmG8ckrar4b7vE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gTC13k-_pje-P_LWe83hQ9_3C5cinGmG8ckrar4b7vE.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ga_8AwiZ1fLWBE_JH6xm2_7W08JkqZhU9uDkUhvvGn4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/ga_8AwiZ1fLWBE_JH6xm2_7W08JkqZhU9uDkUhvvGn4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gsWofEeesuXjVaRhGjHD2qjukz-yngNmr454zPwQ2i8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/gsWofEeesuXjVaRhGjHD2qjukz-yngNmr454zPwQ2i8.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hRJyho2gZP5d0wfhhcN29Rn95ZL3iFqDLmB8fu-ijqM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/hRJyho2gZP5d0wfhhcN29Rn95ZL3iFqDLmB8fu-ijqM.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iGJ0ukbPfqOjxgOTH8VrlcE_ugJGXqrHta1xM9piuDg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/iGJ0ukbPfqOjxgOTH8VrlcE_ugJGXqrHta1xM9piuDg.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/k2lB5rRtXw9RbEvrBQrxuO2Nd2Y7XJL775aWFtLBpEM.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/k2lB5rRtXw9RbEvrBQrxuO2Nd2Y7XJL775aWFtLBpEM.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nDbHQ0LdDMEPHHOabPhwmnKPB3V9hN3z3Wlr8pxgK0g.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nDbHQ0LdDMEPHHOabPhwmnKPB3V9hN3z3Wlr8pxgK0g.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nQ6U4SE5dpRGJ5AgkWaxgScP9Vdwn9olhETezwDMzsE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/nQ6U4SE5dpRGJ5AgkWaxgScP9Vdwn9olhETezwDMzsE.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/niVUoVEMUptq6L7GFj6Df_vajoeWEYtSF4BHTsuLmfE.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/niVUoVEMUptq6L7GFj6Df_vajoeWEYtSF4BHTsuLmfE.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/oMLFYHlQ6IhlgQCGYrRfD16RXZi8SWblWqzEqAJD_14.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/oMLFYHlQ6IhlgQCGYrRfD16RXZi8SWblWqzEqAJD_14.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/oyzs9MZrG3fECHUJh48N4kVgG7Cm8eZ8VgHv0fsYyZ8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/oyzs9MZrG3fECHUJh48N4kVgG7Cm8eZ8VgHv0fsYyZ8.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pCLXhaieARo_4fio3d06mvL-Y3pz7I3rbQ-nuOsdXkw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/pCLXhaieARo_4fio3d06mvL-Y3pz7I3rbQ-nuOsdXkw.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/q4KUrkJZC1i8csZyunpYXm0SFWqg2u5CjiBEFl4uvXw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/q4KUrkJZC1i8csZyunpYXm0SFWqg2u5CjiBEFl4uvXw.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qJgdI69ntOtvlUEMlvgOtER_OK-F9rzAI7q69BOURG0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qJgdI69ntOtvlUEMlvgOtER_OK-F9rzAI7q69BOURG0.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qPpy6-oYUFbeFv8pQ3-ew2sWlF-FIJQIw5CURBHPRas.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/qPpy6-oYUFbeFv8pQ3-ew2sWlF-FIJQIw5CURBHPRas.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/s60WrbhUvPiT9R5MFjfdOJxB8RCTxjNF_tDlzxFc3Bk.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/s60WrbhUvPiT9R5MFjfdOJxB8RCTxjNF_tDlzxFc3Bk.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sdvZr68NVx9W3o6oWuQE6PTl2bpmCnjzfbehg4fEbX8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/sdvZr68NVx9W3o6oWuQE6PTl2bpmCnjzfbehg4fEbX8.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tpbNChC1fPxpGs02ufzu4zO16KU5DVDxt9lF58bzYYA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/tpbNChC1fPxpGs02ufzu4zO16KU5DVDxt9lF58bzYYA.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uCAHwJpN2E-NoDlXCG8nNuKg73ixg85cf2VnFEiDbms.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uCAHwJpN2E-NoDlXCG8nNuKg73ixg85cf2VnFEiDbms.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uF5V3a0QhyqpUWBmEewhGmbvz-tVBmhVE8FalJzwMH0.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uF5V3a0QhyqpUWBmEewhGmbvz-tVBmhVE8FalJzwMH0.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uI07OwNrKd6Q-qKl1fhfY2pslQaIdCNc686c1icQoPA.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/uI07OwNrKd6Q-qKl1fhfY2pslQaIdCNc686c1icQoPA.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vCbyfu34b-_RSdFDCJUrBhudMHtQBDJiM3xYpPx4Fas.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vCbyfu34b-_RSdFDCJUrBhudMHtQBDJiM3xYpPx4Fas.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vTw9RmkRcuGoyToteHJJhCih3Puamlv57PRk0-QyGW8.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/vTw9RmkRcuGoyToteHJJhCih3Puamlv57PRk0-QyGW8.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/waE8g1-W99qmqu9wwKTRu_YyJAUxERvCIWsggGIOwUI.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/waE8g1-W99qmqu9wwKTRu_YyJAUxERvCIWsggGIOwUI.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wv3K7YoxXCn_E0oChI6dauEvHs62E3y-jn0wtJBKmnw.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wv3K7YoxXCn_E0oChI6dauEvHs62E3y-jn0wtJBKmnw.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wwsT7VYDTvHYSHV5Nod2G4nJrs9lou9ZdCkc4PtYqDY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/wwsT7VYDTvHYSHV5Nod2G4nJrs9lou9ZdCkc4PtYqDY.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/x6Ps1qrxdkMFIdk8x3qDCrU08bK6PAPjn0gZ_3ddcsQ.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/x6Ps1qrxdkMFIdk8x3qDCrU08bK6PAPjn0gZ_3ddcsQ.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/x_8T7p4Ee0DWPj-IjSuD6P58v6meHe7OOp6XduqYV8U.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/x_8T7p4Ee0DWPj-IjSuD6P58v6meHe7OOp6XduqYV8U.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/xxlxYU1rjjBEXTHb6riOUlSwu4ylQmmSkVUSYV8NslY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/xxlxYU1rjjBEXTHb6riOUlSwu4ylQmmSkVUSYV8NslY.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/y91GzceONkW2DDVyPp8asDFweaUtET6V8LlHibuL1Jg.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/y91GzceONkW2DDVyPp8asDFweaUtET6V8LlHibuL1Jg.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yEDsizIBdHQsbupiFeksBW_6Yo-MwOdZ9rR1iH1zWD4.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/yEDsizIBdHQsbupiFeksBW_6Yo-MwOdZ9rR1iH1zWD4.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zStrgieNM0cig_FQkN_PTThSwEGmGZVz2G6ZopstTuY.cache" afterPath="$PROJECT_DIR$/tmp/cache/assets/sprockets/v3.0/zStrgieNM0cig_FQkN_PTThSwEGmGZVz2G6ZopstTuY.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_about.html.erb" afterPath="$PROJECT_DIR$/app/views/home/_about.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_contact.html.erb" afterPath="$PROJECT_DIR$/app/views/home/_contact.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_pricing.html.erb" afterPath="$PROJECT_DIR$/app/views/home/_pricing.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home/_team.html.erb" afterPath="$PROJECT_DIR$/app/views/home/_team.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/database.yml" afterPath="$PROJECT_DIR$/config/database.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/environments/development.rb" afterPath="$PROJECT_DIR$/config/environments/development.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/jquery.fancybox.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/jquery.fancybox.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/rails_project.iml" afterPath="$PROJECT_DIR$/.idea/rails_project.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/pids/server.pid" afterPath="$PROJECT_DIR$/tmp/pids/server.pid" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rails_project.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,7 +133,9 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/rails_project@Development__rails_project.coverage" NAME="Development: rails_project Coverage Results" MODIFIED="1477764036663" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails_project" />
+    <SUITE FILE_PATH="coverage/rails_project@Development__rails_project.coverage" NAME="Development: rails_project Coverage Results" MODIFIED="1478254745977" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails_project" />
+    <SUITE FILE_PATH="coverage/rails_project@Production__rails_project.coverage" NAME="Production: rails_project Coverage Results" MODIFIED="1478089446981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails_project" />
+    <SUITE FILE_PATH="coverage/rails_project@db_migrate__rails_project.coverage" NAME="db:migrate: rails_project Coverage Results" MODIFIED="1478083599110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails_project" />
     <SUITE FILE_PATH="coverage/rails_project@assets_precompile__rails_project.coverage" NAME="assets:precompile: rails_project Coverage Results" MODIFIED="1477666661521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails_project" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -38,67 +153,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="_portfolio.html.erb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/home/_portfolio.html.erb">
+      <file leaf-file-name="_pricing.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/_pricing.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43875685">
-              <caret line="16" column="134" selection-start-line="16" selection-start-column="134" selection-end-line="16" selection-end-column="134" />
+            <state vertical-scroll-proportion="-11.25">
+              <caret line="44" column="22" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/style.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="6" column="64" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.75">
-              <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.25">
-              <caret line="2" column="16" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.47692308">
+              <caret line="678" column="27" selection-start-line="678" selection-start-column="27" selection-end-line="678" selection-end-column="27" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="GeneratorOptions">
+    <option name="VCS_SHOW_CONFIRMATION" value="true" />
+    <option name="ENVIRONMENT" value="development" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -111,17 +190,24 @@
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
         <option value="$PROJECT_DIR$/app/views/home/index.html.erb" />
         <option value="$PROJECT_DIR$/vendor/assets/stylesheets/style.scss" />
-        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/jquery.fancybox.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/main.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
         <option value="$PROJECT_DIR$/app/views/home/_blog.html.erb" />
         <option value="$PROJECT_DIR$/app/views/home/_header.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/lightbox.scss" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/config/database.yml" />
         <option value="$PROJECT_DIR$/app/views/home/_portfolio.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/jquery.fancybox.scss" />
+        <option value="$PROJECT_DIR$/config/database.yml" />
+        <option value="$PROJECT_DIR$/app/views/home/_team.html.erb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/config/initializers/devise.rb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/views/home/_about.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/_contact.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/home/_pricing.html.erb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.scss" />
       </list>
     </option>
   </component>
@@ -140,8 +226,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="153" />
-    <option name="y" value="23" />
+    <option name="x" value="45" />
+    <option name="y" value="111" />
     <option name="width" value="1484" />
     <option name="height" value="959" />
   </component>
@@ -168,8 +254,9 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="RailsProjectView" />
+      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -198,33 +285,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stylesheets" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rails_project" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
+              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -241,6 +302,50 @@
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="environments" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="home" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -271,6 +376,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -296,19 +405,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rails_project" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Marcus" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../worldpublico/work" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="recentsLimit" value="5" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="RakeTaksPopup.undocumentedIncluded" value="false" />
     <property name="FullScreen" value="false" />
+    <property name="RailsGeneratorsPopup.hiddenIncluded" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -339,6 +466,32 @@
       </EXTENSION>
       <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="assets:precompile" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_DRYRUN" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_PREREQS" VALUE="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="db:migrate: rails_project" type="RakeRunConfigurationType" factoryName="Rake" temporary="true">
+      <module name="rails_project" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="RAILS_ENV" value="development" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.motion.run.MotionSimulatorRunExtension" />
+      <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_NAME" VALUE="db:migrate" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ARGS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_ATTACHED_TEST_FRAMEWORKS" VALUE="" />
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TRACE" VALUE="false" />
@@ -523,16 +676,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="5">
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Rake.test: rails_project" />
       <item index="1" class="java.lang.String" itemvalue="Rake.spec: rails_project" />
       <item index="2" class="java.lang.String" itemvalue="Rails.Production: rails_project" />
       <item index="3" class="java.lang.String" itemvalue="Rails.Development: rails_project" />
       <item index="4" class="java.lang.String" itemvalue="Rake.assets:precompile: rails_project" />
+      <item index="5" class="java.lang.String" itemvalue="Rake.db:migrate: rails_project" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Rake.assets:precompile: rails_project" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Rake.db:migrate: rails_project" />
+        <item index="1" class="java.lang.String" itemvalue="Rake.assets:precompile: rails_project" />
       </list>
     </recent_temporary>
   </component>
@@ -550,29 +705,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="153" y="23" width="1484" height="959" extended-state="0" />
+    <frame x="45" y="111" width="1484" height="959" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32969153" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28710124" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29126215" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922733" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32922733" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32922733" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -591,50 +746,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/database.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config.ru">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/environment.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -650,13 +761,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/log/production.log">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/secrets.yml">
@@ -674,13 +785,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/boot.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -723,13 +827,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/_pricing.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="12.208333">
-          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/_service.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.75">
@@ -751,20 +848,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.875">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jquery.fancybox.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="128.75">
-          <caret line="14" column="14" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/layouts/_footer.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -779,13 +862,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="6" column="164" selection-start-line="6" selection-start-column="164" selection-end-line="6" selection-end-column="164" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/images/portfolio/booking.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -796,32 +872,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.026269702">
-          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/site.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,32 +893,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/_about.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.25">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/_blog.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.125">
           <caret line="21" column="35" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/_contact.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.125">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -890,13 +922,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/_team.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="52.833332">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home/_twiter.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.0">
@@ -911,26 +936,133 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.25">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/style.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
+        <state vertical-scroll-proportion="0.0">
           <caret line="6" column="64" selection-start-line="1" selection-start-column="4" selection-end-line="6" selection-end-column="64" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/jquery.fancybox.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.75">
-          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        <state vertical-scroll-proportion="28.083334">
+          <caret line="89" column="17" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/_team.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375">
+          <caret line="34" column="72" selection-start-line="34" selection-start-column="72" selection-end-line="34" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/user_mail.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="34" selection-start-line="0" selection-start-column="34" selection-end-line="0" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/application_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.875">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/devise.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/registrations/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/application_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/admin_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="21" />
+          <folding>
+            <marker date="1478098913000" expanded="true" signature="-1:-1" placeholder="do ... end" />
+            <marker date="1478098913000" expanded="true" signature="-1:-1" placeholder="#..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.875">
+          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="25" column="0" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="40" selection-start-line="30" selection-start-column="40" selection-end-line="30" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="52" selection-end-column="3" />
           <folding />
         </state>
       </provider>
@@ -938,7 +1070,23 @@
     <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/_portfolio.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="22.5">
+          <caret line="80" column="37" selection-start-line="80" selection-start-column="37" selection-end-line="80" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -946,15 +1094,39 @@
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="24" column="17" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
+          <caret line="12" column="37" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home/_portfolio.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/home/_about.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43875685">
-          <caret line="16" column="134" selection-start-line="16" selection-start-column="134" selection-end-line="16" selection-end-column="134" />
+        <state vertical-scroll-proportion="-19.375">
+          <caret line="51" column="133" selection-start-line="51" selection-start-column="133" selection-end-line="51" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/_contact.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.541667">
+          <caret line="56" column="82" selection-start-line="56" selection-start-column="82" selection-end-line="56" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/_pricing.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.25">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.47692308">
+          <caret line="678" column="27" selection-start-line="678" selection-start-column="27" selection-end-line="678" selection-end-column="27" />
           <folding />
         </state>
       </provider>

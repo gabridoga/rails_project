@@ -3940,3 +3940,1508 @@ Completed 200 OK in 305ms (Views: 296.9ms | ActiveRecord: 0.0ms)
 
 
 Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-29 20:00:44 +0200
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-30 13:09:14 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (12.9ms)
+  Rendered home/_service.html.erb (0.1ms)
+  Rendered home/_about.html.erb (0.1ms)
+  Rendered home/_portfolio.html.erb (41.9ms)
+  Rendered home/_team.html.erb (3.5ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (5.5ms)
+  Rendered home/_contact.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (109.6ms)
+Completed 200 OK in 208ms (Views: 207.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-30 13:09:47 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-30 13:14:03 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.7ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (11.6ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.3ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 331ms (Views: 331.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.fancybox.self-b2ad1293dc5fe5cb7b4db4808185f9c296b77c59281c352e7004d7d95b6378cd.css?body=1" for 127.0.0.1 at 2016-10-30 13:14:03 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-30 13:14:05 +0100
+
+
+Started GET "/assets/portfolio/schedule_details-d32ad43da95bdc830d2428dee416089098de50218efb80af1f6b304098c187ec.png" for 127.0.0.1 at 2016-10-30 13:14:09 +0100
+
+
+Started GET "/assets/portfolio/sports_details-6b5173a45f66a88b0ebdbbe75b464bb73b875c52acd07c5b63870c1f7443c464.png" for 127.0.0.1 at 2016-10-30 13:14:09 +0100
+
+
+Started GET "/assets/portfolio/photoshare_details-6656178dee03819f0b574070c293c728ea715ac431321492f6e16ff0b529ea31.png" for 127.0.0.1 at 2016-10-30 13:14:09 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-10-30 13:14:12 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (14.6ms)
+  Rendered home/_team.html.erb (2.0ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.5ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-10-30 13:14:13 +0100
+
+
+Started GET "/assets/lightbox.min.map" for 127.0.0.1 at 2016-10-30 13:16:06 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/lightbox.min.map"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (87.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (77.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (153.9ms)
+
+
+Started GET "/assets/portfolio/chating_details-70cd5395812c836c7990444627f3568aa2ca51eb79706f9ff52a3705528b15b5.png" for 127.0.0.1 at 2016-10-30 13:18:06 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-01 14:27:57 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (413.9ms)
+  Rendered home/_service.html.erb (0.6ms)
+  Rendered home/_about.html.erb (0.5ms)
+  Rendered home/_portfolio.html.erb (13.2ms)
+  Rendered home/_team.html.erb (2.9ms)
+  Rendered home/_feature.html.erb (0.3ms)
+  Rendered home/_pricing.html.erb (0.3ms)
+  Rendered home/_twiter.html.erb (0.3ms)
+  Rendered home/_blog.html.erb (5.0ms)
+  Rendered home/_contact.html.erb (29.1ms)
+  Rendered home/_footer.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (537.4ms)
+Completed 200 OK in 727ms (Views: 704.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/portfolio-single.html" for 127.0.0.1 at 2016-11-01 14:30:47 +0100
+
+ActionController::RoutingError (No route matches [GET] "/portfolio-single.html"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.text.erb (0.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.text.erb (26.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-01 14:45:32 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (15.6ms)
+  Rendered home/_service.html.erb (0.1ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (34.5ms)
+  Rendered home/_team.html.erb (2.6ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (3.6ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (69.9ms)
+Completed 200 OK in 141ms (Views: 140.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-02 05:02:44 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (243.0ms)
+  Rendered home/_service.html.erb (0.4ms)
+  Rendered home/_about.html.erb (0.4ms)
+  Rendered home/_portfolio.html.erb (11.8ms)
+  Rendered home/_team.html.erb (4.4ms)
+  Rendered home/_feature.html.erb (0.3ms)
+  Rendered home/_pricing.html.erb (0.3ms)
+  Rendered home/_twiter.html.erb (0.2ms)
+  Rendered home/_blog.html.erb (4.9ms)
+  Rendered home/_contact.html.erb (5.8ms)
+  Rendered home/_footer.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (345.8ms)
+Completed 200 OK in 472ms (Views: 462.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-02 05:02:45 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.7ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (10.2ms)
+  Rendered home/_team.html.erb (2.5ms)
+  Rendered home/_feature.html.erb (0.1ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.4ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 101ms (Views: 100.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-02 10:48:34 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (12.9ms)
+  Rendered home/_service.html.erb (0.1ms)
+  Rendered home/_about.html.erb (0.1ms)
+  Rendered home/_portfolio.html.erb (30.0ms)
+  Rendered home/_team.html.erb (5.8ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (6.8ms)
+  Rendered home/_contact.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (109.9ms)
+Completed 200 OK in 221ms (Views: 220.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-02 10:48:39 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-02 11:22:04 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (264.5ms)
+  Rendered home/_service.html.erb (0.4ms)
+  Rendered home/_about.html.erb (0.4ms)
+  Rendered home/_portfolio.html.erb (30.9ms)
+  Rendered home/_team.html.erb (3.1ms)
+  Rendered home/_feature.html.erb (0.3ms)
+  Rendered home/_pricing.html.erb (0.3ms)
+  Rendered home/_twiter.html.erb (0.3ms)
+  Rendered home/_blog.html.erb (5.9ms)
+  Rendered home/_contact.html.erb (36.1ms)
+  Rendered home/_footer.html.erb (0.9ms)
+  Rendered home/index.html.erb within layouts/application (394.1ms)
+Completed 200 OK in 547ms (Views: 538.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-02 11:22:07 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (26.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to DeviseCreateUsers (20161102104412)
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (106.3ms)[0m  [1mCREATE TABLE "users" ("id" serial primary key, "email" character varying DEFAULT '' NOT NULL, "encrypted_password" character varying DEFAULT '' NOT NULL, "reset_password_token" character varying, "reset_password_sent_at" timestamp, "remember_created_at" timestamp, "sign_in_count" integer DEFAULT 0 NOT NULL, "current_sign_in_at" timestamp, "last_sign_in_at" timestamp, "current_sign_in_ip" inet, "last_sign_in_ip" inet, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL) [0m
+  [1m[35m (1.0ms)[0m  CREATE UNIQUE INDEX  "index_users_on_email" ON "users"  ("email")
+  [1m[36m (1.0ms)[0m  [1mCREATE UNIQUE INDEX  "index_users_on_reset_password_token" ON "users"  ("reset_password_token")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES ($1)  [["version", "20161102104412"]]
+  [1m[36m (31.3ms)[0m  [1mCOMMIT[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.2ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (2.1ms)[0m  [1mSELECT t2.oid::regclass::text AS to_table, a1.attname AS column, a2.attname AS primary_key, c.conname AS name, c.confupdtype AS on_update, c.confdeltype AS on_delete
+FROM pg_constraint c
+JOIN pg_class t1 ON c.conrelid = t1.oid
+JOIN pg_class t2 ON c.confrelid = t2.oid
+JOIN pg_attribute a1 ON a1.attnum = c.conkey[1] AND a1.attrelid = t1.oid
+JOIN pg_attribute a2 ON a2.attnum = c.confkey[1] AND a2.attrelid = t2.oid
+JOIN pg_namespace t3 ON c.connamespace = t3.oid
+WHERE c.contype = 'f'
+  AND t1.relname = 'users'
+  AND t3.nspname = ANY (current_schemas(false))
+ORDER BY c.conname
+[0m
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-02 13:24:34 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (256.8ms)
+  Rendered home/_service.html.erb (0.4ms)
+  Rendered home/_about.html.erb (0.4ms)
+  Rendered home/_portfolio.html.erb (13.1ms)
+  Rendered home/_team.html.erb (3.2ms)
+  Rendered home/_feature.html.erb (0.3ms)
+  Rendered home/_pricing.html.erb (0.4ms)
+  Rendered home/_twiter.html.erb (0.4ms)
+  Rendered home/_blog.html.erb (3.3ms)
+  Rendered home/_contact.html.erb (7.7ms)
+  Rendered home/_footer.html.erb (1.0ms)
+  Rendered home/index.html.erb within layouts/application (345.5ms)
+Completed 200 OK in 506ms (Views: 497.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-02 13:24:36 +0100
+
+
+Started GET "/users" for 127.0.0.1 at 2016-11-02 13:29:13 +0100
+
+ActionController::RoutingError (No route matches [GET] "/users"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (108.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (100.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (173.3ms)
+
+
+Started GET "/users/user_registration_path" for 127.0.0.1 at 2016-11-02 13:29:37 +0100
+
+ActionController::RoutingError (No route matches [GET] "/users/user_registration_path"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (74.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (108.6ms)
+
+
+Started GET "/user_registration_path" for 127.0.0.1 at 2016-11-02 13:29:44 +0100
+
+ActionController::RoutingError (No route matches [GET] "/user_registration_path"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (76.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (48.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (109.1ms)
+
+
+Started GET "/new_user_registration_path" for 127.0.0.1 at 2016-11-02 15:44:01 +0100
+
+ActionController::RoutingError (No route matches [GET] "/new_user_registration_path"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (53.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (126.1ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2016-11-02 15:53:54 +0100
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.7ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (68.8ms)
+Completed 200 OK in 241ms (Views: 220.6ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/users" for 127.0.0.1 at 2016-11-02 15:54:44 +0100
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e+TeSQpIDt/goCChXb8bvXZMO2hYzzNHmvrFgegiAEhFxG9G09oqLetehcCA3ZjHthVsaLqenv57avUmYuXvFQ==", "user"=>{"email"=>"", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mROLLBACK[0m
+  Rendered devise/shared/_links.html.erb (1.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 74ms (Views: 58.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2016-11-02 15:54:59 +0100
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (5.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 90ms (Views: 88.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/password/new" for 127.0.0.1 at 2016-11-02 15:55:03 +0100
+Processing by Devise::PasswordsController#new as HTML
+  Rendered devise/shared/_links.html.erb (3.1ms)
+  Rendered devise/passwords/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 62ms (Views: 60.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/register" for 127.0.0.1 at 2016-11-02 16:04:33 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by AdminController#register as HTML
+  Rendered admin/register.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 794ms (Views: 785.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-11-02 16:04:34 +0100
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-11-02 16:04:34 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-02 16:14:15 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (4613.6ms)
+  Rendered home/_service.html.erb (0.3ms)
+  Rendered home/_about.html.erb (0.3ms)
+  Rendered home/_portfolio.html.erb (16.7ms)
+  Rendered home/_team.html.erb (9.7ms)
+  Rendered home/_feature.html.erb (0.6ms)
+  Rendered home/_pricing.html.erb (0.5ms)
+  Rendered home/_twiter.html.erb (0.2ms)
+  Rendered home/_blog.html.erb (5.4ms)
+  Rendered home/_contact.html.erb (8.4ms)
+  Rendered home/_footer.html.erb (1.1ms)
+  Rendered home/index.html.erb within layouts/application (4730.8ms)
+Completed 200 OK in 4900ms (Views: 4891.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/register" for 127.0.0.1 at 2016-11-02 16:14:20 +0100
+Processing by AdminController#register as HTML
+  Rendered admin/register.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d9a8d9c5df95015547b0056fd5719930e16979f39b754e50a1b2a313c61f7d29.css?body=1" for 127.0.0.1 at 2016-11-02 16:14:20 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-02 16:14:20 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-02 16:14:26 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (3.1ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (11.4ms)
+  Rendered home/_team.html.erb (3.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (3.6ms)
+  Rendered home/_contact.html.erb (1.3ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (34.6ms)
+Completed 200 OK in 115ms (Views: 114.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/roboto/Roboto-Regular-b5c9c23bd12593523a46d79dd0aee80e3226bbde4c9ac05fc30a95e2c1510de0.woff2" for 127.0.0.1 at 2016-11-02 16:14:29 +0100
+
+
+Started GET "/assets/roboto/Roboto-Medium-1cd5c4b37938d932110ec043ce1cc766d18cacf7a4e7cffa6a539855d5bdc08d.woff2" for 127.0.0.1 at 2016-11-02 16:14:29 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-02 16:15:18 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (469.4ms)
+  Rendered home/_service.html.erb (0.4ms)
+  Rendered home/_about.html.erb (0.3ms)
+  Rendered home/_portfolio.html.erb (12.0ms)
+  Rendered home/_team.html.erb (3.0ms)
+  Rendered home/_feature.html.erb (0.4ms)
+  Rendered home/_pricing.html.erb (0.3ms)
+  Rendered home/_twiter.html.erb (0.3ms)
+  Rendered home/_blog.html.erb (8.9ms)
+  Rendered home/_contact.html.erb (6.5ms)
+  Rendered home/_footer.html.erb (0.8ms)
+  Rendered home/index.html.erb within layouts/application (515.2ms)
+Completed 200 OK in 621ms (Views: 612.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-02 16:15:20 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:19:14 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (376.9ms)
+  Rendered home/_service.html.erb (0.4ms)
+  Rendered home/_about.html.erb (0.3ms)
+  Rendered home/_portfolio.html.erb (11.9ms)
+  Rendered home/_team.html.erb (3.2ms)
+  Rendered home/_feature.html.erb (0.3ms)
+  Rendered home/_pricing.html.erb (0.3ms)
+  Rendered home/_twiter.html.erb (0.4ms)
+  Rendered home/_blog.html.erb (3.2ms)
+  Rendered home/_contact.html.erb (21.0ms)
+  Rendered home/_footer.html.erb (1.3ms)
+  Rendered home/index.html.erb within layouts/application (448.1ms)
+Completed 200 OK in 613ms (Views: 604.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:19:15 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (3.1ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (10.2ms)
+  Rendered home/_team.html.erb (2.5ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.1ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.7ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (30.1ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:21:28 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.9ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.4ms)
+  Rendered home/_portfolio.html.erb (9.7ms)
+  Rendered home/_team.html.erb (2.2ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.4ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (30.0ms)
+Completed 200 OK in 94ms (Views: 94.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:21:29 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:22:36 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.6ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.2ms)
+  Rendered home/_contact.html.erb (1.4ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:22:37 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:24:00 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (10.2ms)
+  Rendered home/_team.html.erb (2.3ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.3ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.5ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 87ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:24:01 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:25:37 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.9ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.1ms)
+  Rendered home/_portfolio.html.erb (9.5ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.3ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.5ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 84ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:25:38 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:31:58 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.8ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (10.3ms)
+  Rendered home/_team.html.erb (2.4ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.5ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 313ms (Views: 312.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dcead22d1e674f3f793633092e714fcaa6c9ec023f798d10ce580d9407de6015.css?body=1" for 127.0.0.1 at 2016-11-04 11:31:58 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:31:59 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:33:15 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.5ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.5ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.1ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.0ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (26.9ms)
+Completed 200 OK in 284ms (Views: 283.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f760e211d98b2c3e4af83ad8f485d51626ee8c4953e6f9ac7f6efecfc6dd892d.css?body=1" for 127.0.0.1 at 2016-11-04 11:33:15 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:33:16 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:36:21 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.7ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.5ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.4ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.7ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 285ms (Views: 284.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-096268f5679c28c6d6b8e4f61c053ef1710f38ddcfa33dc1fc76f7306c9f4ede.css?body=1" for 127.0.0.1 at 2016-11-04 11:36:21 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:36:22 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:37:25 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.4ms)
+  Rendered home/_team.html.erb (2.4ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.2ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 301ms (Views: 300.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f2c82a2c84423a8dfc75c6f87ed11efe3e602e47082c308211df0961e96ae060.css?body=1" for 127.0.0.1 at 2016-11-04 11:37:25 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:37:26 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:38:14 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.7ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.3ms)
+  Rendered home/_team.html.erb (2.2ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.1ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (27.3ms)
+Completed 200 OK in 307ms (Views: 306.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a1eeecc6a873081a17ddc90295531280b2d5969da33219b4bd5e2dcbf4439fe8.css?body=1" for 127.0.0.1 at 2016-11-04 11:38:14 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:38:15 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:43:47 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (4.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (13.9ms)
+  Rendered home/_team.html.erb (2.6ms)
+  Rendered home/_feature.html.erb (0.2ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (3.1ms)
+  Rendered home/_contact.html.erb (0.5ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (35.8ms)
+Completed 200 OK in 309ms (Views: 308.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2c1165b548a65743904cc46a324759537232a365500e3946dcd943f17224d721.css?body=1" for 127.0.0.1 at 2016-11-04 11:43:47 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:43:48 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:44:20 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (10.2ms)
+  Rendered home/_team.html.erb (2.0ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.1ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (28.1ms)
+Completed 200 OK in 285ms (Views: 284.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-dc833f311c7555b25515af571730be3c192eae73d69517b93ff64dd89ac72b00.css?body=1" for 127.0.0.1 at 2016-11-04 11:44:20 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:44:21 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:45:08 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.5ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.3ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.5ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 286ms (Views: 285.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-fa212f7dd913d3fe2483d4283f8c6ed1fa09a5902c11b848d98126c266a7b197.css?body=1" for 127.0.0.1 at 2016-11-04 11:45:08 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:45:09 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:46:10 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.5ms)
+  Rendered home/_team.html.erb (2.0ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.7ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 295ms (Views: 294.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-a470c1a4f54c9faf3b1ccea9e396ca9723b79e903d76544ff6b325ccf8f0dfdc.css?body=1" for 127.0.0.1 at 2016-11-04 11:46:11 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:46:12 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:46:58 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.5ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.3ms)
+  Rendered home/_team.html.erb (2.0ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.0ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (26.6ms)
+Completed 200 OK in 281ms (Views: 281.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9a17d591f40a1883e323cf85afc16878c416f8fded62f5c897b753dacdba571f.css?body=1" for 127.0.0.1 at 2016-11-04 11:46:58 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:46:59 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:47:36 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.5ms)
+  Rendered home/_team.html.erb (2.2ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.2ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (27.5ms)
+Completed 200 OK in 288ms (Views: 287.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c6bef4d444b87ffe59651c9a9720b84dbd35eee9e657672a252dd207617d37c4.css?body=1" for 127.0.0.1 at 2016-11-04 11:47:36 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:47:37 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:48:44 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.7ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.2ms)
+  Rendered home/_team.html.erb (2.3ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.4ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 289ms (Views: 288.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2d1cc80571af03785632de822a7c21753c4e4c889b8f789fede906873a88ece9.css?body=1" for 127.0.0.1 at 2016-11-04 11:48:44 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:48:45 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:49:49 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.5ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.3ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.3ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 304ms (Views: 303.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-7574140f7ebf99c04d3af37cda1508b0eefd818ec7f40e34432fcb95bafa9609.css?body=1" for 127.0.0.1 at 2016-11-04 11:49:49 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:49:51 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:50:54 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (5.4ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (15.7ms)
+  Rendered home/_team.html.erb (3.2ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.6ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (39.1ms)
+Completed 200 OK in 311ms (Views: 310.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3fcbaae41270589afc7bf2dfc9ff9054b8b114e22f7660e5acedd8d7965e6d83.css?body=1" for 127.0.0.1 at 2016-11-04 11:50:54 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:50:55 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:51:22 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.7ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (10.2ms)
+  Rendered home/_team.html.erb (2.0ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.2ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (28.4ms)
+Completed 200 OK in 283ms (Views: 282.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ff2658c146e8641080b66261b8fec7c62d2d79e6a1ce493a4f9c1460e8147582.css?body=1" for 127.0.0.1 at 2016-11-04 11:51:22 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:51:23 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:53:20 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.1ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.3ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 284ms (Views: 283.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-af653972f9e78ea21573a58eda511e151dd733226e5a7a58d44a90c3ce9da7f4.css?body=1" for 127.0.0.1 at 2016-11-04 11:53:20 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:53:21 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:54:10 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.5ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.6ms)
+  Rendered home/_team.html.erb (2.2ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.2ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 288ms (Views: 287.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cc19404fad0f14480f47463dd4407a31013fc907f060f4353f2ead3ab1bdebb9.css?body=1" for 127.0.0.1 at 2016-11-04 11:54:10 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:54:11 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:56:30 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (8.9ms)
+  Rendered home/_team.html.erb (2.0ms)
+  Rendered home/_feature.html.erb (0.1ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (1.9ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (26.1ms)
+Completed 200 OK in 281ms (Views: 280.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-40fee9cc856536944dace7d8dafef2cff6a4d3fbe2ba212a1de1aa1a929a29f2.css?body=1" for 127.0.0.1 at 2016-11-04 11:56:31 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:56:31 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:57:56 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.5ms)
+  Rendered home/_team.html.erb (2.0ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.1ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 284ms (Views: 283.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ddcdf33f3eda668cf122c6cd6af37642a76d23caa4273fabd36de44480c42d55.css?body=1" for 127.0.0.1 at 2016-11-04 11:57:56 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:57:57 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:59:06 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (14.8ms)
+  Rendered home/_team.html.erb (2.4ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.4ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (33.3ms)
+Completed 200 OK in 295ms (Views: 294.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4bfc1859ef2e60b5e7e10e172ccd85265dfb4420d3571cf43a705a1df6369279.css?body=1" for 127.0.0.1 at 2016-11-04 11:59:07 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:59:07 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 11:59:29 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.5ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.2ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.1ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 309ms (Views: 308.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-4631dedf28927bded3bb4d753da2d752ef56bb8e87a185cba53ef9c73b43ca4a.css?body=1" for 127.0.0.1 at 2016-11-04 11:59:29 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 11:59:30 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:00:21 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (3.3ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (11.2ms)
+  Rendered home/_team.html.erb (2.9ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (3.4ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (32.9ms)
+Completed 200 OK in 310ms (Views: 309.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ee2f5fd0bd0c24ae42cbe65b0f9a6bb44fe6e2ebe28997022ea8cc174faa15d5.css?body=1" for 127.0.0.1 at 2016-11-04 12:00:22 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:00:23 +0100
+
+
+Started GET "/assets/lightbox.min.map" for 127.0.0.1 at 2016-11-04 12:00:29 +0100
+
+ActionController::RoutingError (No route matches [GET] "/assets/lightbox.min.map"):
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (96.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (90.6ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (161.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:40:03 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.7ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.1ms)
+  Rendered home/_portfolio.html.erb (13.9ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.2ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (38.4ms)
+Completed 200 OK in 328ms (Views: 327.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-d69f8fc5e1f34f2200729960d3235639036ec172f69b7255b3ed5281f42381b3.css?body=1" for 127.0.0.1 at 2016-11-04 12:40:04 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:40:05 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:40:44 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.8ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.7ms)
+  Rendered home/_team.html.erb (2.3ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.3ms)
+  Rendered home/_contact.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 295ms (Views: 294.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5ccd10150486f91dece6152dba48286e61cff7324f8cfff657ccb77c0c5b889c.css?body=1" for 127.0.0.1 at 2016-11-04 12:40:44 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:40:45 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:41:31 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.5ms)
+  Rendered home/_service.html.erb (0.1ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (10.4ms)
+  Rendered home/_team.html.erb (2.0ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.8ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (29.2ms)
+Completed 200 OK in 310ms (Views: 310.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-503c5fcbac33a78a013775d6c2b27403499e0019903c21224d8f00d7a11c3a21.css?body=1" for 127.0.0.1 at 2016-11-04 12:41:32 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:41:32 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:42:17 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (4.3ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (15.3ms)
+  Rendered home/_team.html.erb (4.3ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.5ms)
+  Rendered home/_contact.html.erb (0.8ms)
+  Rendered home/_footer.html.erb (0.6ms)
+  Rendered home/index.html.erb within layouts/application (39.2ms)
+Completed 200 OK in 317ms (Views: 316.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-cf45fd5b8fda2e805a1e73db383e66f9ca401dcc893630d4cd90e22452270193.css?body=1" for 127.0.0.1 at 2016-11-04 12:42:18 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:42:18 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:45:36 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.1ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.4ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 285ms (Views: 284.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-2e88c17982a5d921510779f5800847525b7a268c5ac21968935eb23c6ec9ded9.css?body=1" for 127.0.0.1 at 2016-11-04 12:45:37 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:45:37 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:46:04 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.5ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.0ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (27.0ms)
+Completed 200 OK in 302ms (Views: 301.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-15420a350cdec5479d58328ebdf5da504fecaf73ffd703684573c5091bce2c61.css?body=1" for 127.0.0.1 at 2016-11-04 12:46:04 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:46:05 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:46:36 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (3.0ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.9ms)
+  Rendered home/_team.html.erb (8.8ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.6ms)
+  Rendered home/_contact.html.erb (0.7ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (36.1ms)
+Completed 200 OK in 293ms (Views: 293.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-eb28047b271be33e7d155517a07a87fafcb7c7e2b1a612e2a82d745a2134eee6.css?body=1" for 127.0.0.1 at 2016-11-04 12:46:36 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:46:37 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:50:30 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.5ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.4ms)
+  Rendered home/_team.html.erb (2.0ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (1.9ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.4ms)
+  Rendered home/index.html.erb within layouts/application (26.4ms)
+Completed 200 OK in 308ms (Views: 307.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-c1ed7c0cf6dd097aeb5c796f8a6f0431160fd3c0dbd9e57239172ab546082cd2.css?body=1" for 127.0.0.1 at 2016-11-04 12:50:30 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:50:31 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:50:59 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (3.4ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (11.1ms)
+  Rendered home/_team.html.erb (2.6ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (3.8ms)
+  Rendered home/_contact.html.erb (0.9ms)
+  Rendered home/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 312ms (Views: 311.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ee5203cc8aba5b81be577210e7f8c3acc0cdb4b4fcb43f7884811b80cb1ea764.css?body=1" for 127.0.0.1 at 2016-11-04 12:50:59 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:51:00 +0100
+
+
+Started GET "/" for 127.0.0.1 at 2016-11-04 12:52:22 +0100
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (2.6ms)
+  Rendered home/_service.html.erb (0.0ms)
+  Rendered home/_about.html.erb (0.0ms)
+  Rendered home/_portfolio.html.erb (9.4ms)
+  Rendered home/_team.html.erb (2.1ms)
+  Rendered home/_feature.html.erb (0.0ms)
+  Rendered home/_pricing.html.erb (0.0ms)
+  Rendered home/_twiter.html.erb (0.0ms)
+  Rendered home/_blog.html.erb (2.3ms)
+  Rendered home/_contact.html.erb (0.6ms)
+  Rendered home/_footer.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (27.7ms)
+Completed 200 OK in 287ms (Views: 286.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-5d27a270aff9156fe44ec2154b93b045283da8299b6700ca7d6802e20bba4903.css?body=1" for 127.0.0.1 at 2016-11-04 12:52:23 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-11-04 12:52:24 +0100
