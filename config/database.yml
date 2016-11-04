@@ -6,7 +6,7 @@ default: &default
   pool: 5
   host: localhost
   username: rails
-  password: yghV00YeH4
+  password: KtVhqAZOoN
 
 development:
   <<: *default
@@ -23,4 +23,4 @@ production:
   <<: *default
   database: rails_project_production
   username: rails
-  password: yghV00YeH4
+  password: KtVhqAZOoN
