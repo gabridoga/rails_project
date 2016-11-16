@@ -1,14 +1,11 @@
 Rails.application.routes.draw do
+  devise_for :users, controllers: {sessions: "sessions"}
+  # devise_for :users
   get 'admin/register'
-
   get 'admin/login'
-
   get 'admin/profile'
-
-
   get 'home/index'
-
-  root 'home#index'
+  root 'admin#profile'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

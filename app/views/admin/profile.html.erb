@@ -1,2 +1,36 @@
-<h1>Admin#profile</h1>
-<p>Find me in app/views/admin/profile.html.erb</p>
+<div class="main-nav">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href=<%= root_path %>>
+        <h1>Admin Panel</h1>
+      </a>
+    </div>
+    <div class="collapse navbar-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li class="scroll active"><a href="#home">Home</a></li>
+        <li class="scroll"><a href="#services">Service</a></li>
+        <li class="scroll"><a href="#about-us">About Us</a></li>
+        <li class="scroll"><a href="#portfolio">Portfolio</a></li>
+        <li class="scroll"><a href="#team">Team</a></li>
+        <li class="scroll"><a href="#blog">Blog</a></li>
+        <li class="scroll"><a href="#contact">Contact</a></li>
+        <% if user_signed_in? %>
+            <li class="scroll">
+              <%= link_to('Logout', destroy_user_session_path,  :method => :delete) %>
+            </li>
+        <% else %>
+            <li class="scroll">
+              <%= link_to('Login', new_user_session_path)  %>
+            </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</div><!--/#main-nav-->
+</header>

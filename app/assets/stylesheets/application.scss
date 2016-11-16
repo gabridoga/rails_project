@@ -641,8 +641,8 @@ section {
 
 .single-table {
   padding: 30px 20px 20px;
-  //border:1px solid #009688;
-  background-color:#e3f2fd;
+  border:1px solid rgb(191, 183, 187);
+  //background-color:#e3f2fd;
   //background-color:#b9f6ca;
 }
 
@@ -676,7 +676,7 @@ section {
 
 .single-table.featured {
   color: #fff;
-  background-color: #90caf9;
+  //background-color: #90caf9;
 }
 
 .single-table.featured h3 {
@@ -692,7 +692,7 @@ section {
   color: #fff;
 }
 .single-table.featured .btn.btn-primary {
-  background-color: #64b5f6;
+  //background-color: #64b5f6;
   color: white;
 }
 
