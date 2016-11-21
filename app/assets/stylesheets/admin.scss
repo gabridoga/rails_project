@@ -1,7 +1,34 @@
 // Place all the styles related to the admin controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-#login{
-  background-color: green;
-  height: 100vh;
+//#login{
+//  background-color: green;
+//  height: 100vh;
+//}
+//.resiger ,.login{
+//
+//  background-color: #009688;
+//  height: 100vh;
+//
+//}
+.footer{
+  border-top: 1px solid #e5e5e5 ;
+}
+
+.round-image-50 {
+  background-color: white;
+  //border: 1px solid #d9d9d9;
+  border-radius: 25px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  text-align: center;
+  img { width: 100% }
+}
+.profile{
+
+  margin-top: 50px;
+
 }

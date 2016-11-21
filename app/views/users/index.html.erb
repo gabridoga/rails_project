@@ -1,0 +1,73 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href=<%= root_path %>>AdminPanel</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li ><a href=<%=home_index_path%>>Home</a></li>
+        <li ><a href=<%=new_post_path%>>Blog</a></li>
+        <% if user_signed_in? %>
+            <li class="scroll">
+              <%= link_to('Logout', destroy_user_session_path,  :method => :delete) %>
+            <li class="round-image-50"><%= image_tag(current_user.avatar.url(:thumb)) %></li>
+            <li><a href=<%= edit_users_path %>><%= current_user.firstname %></a></li>
+
+        <% else %>
+            <li>
+              <%= link_to('Login', new_user_session_path)  %>
+            </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
+<div class="container">
+  <h2>User Managerment</h2>
+  <p>Here is users that  is registered on our site</p>
+  <table class="table table-striped">
+    <thead>
+    <tr>
+      <th>Email</th>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Regist Date</th>
+      <th>Last Login Date</th>
+      <th>Visit Count</th>
+
+    </tr>
+    </thead>
+    <tbody>
+    <% @users.each do |user| %>
+        <tr>
+          <td><%= link_to user.email, user %></td>
+          <td><%= user.firstname %></td>
+          <td><%= user.lastname %></td>
+          <td><%= user.created_at %></td>
+          <td><%= user.last_sign_in_at %></td>
+          <td><%= user.sign_in_count %></td>
+        </tr>
+
+    <% end %>
+
+
+
+    </tbody>
+  </table>
+</div>
+<div class="footer">
+  <%
+    current_time = DateTime.now
+  %>
+  <span>&copy; <%= current_time.strftime "%Y" %> Gabri doga</span>
+  <%= link_to 'About Us' %>&nbsp;&nbsp;&nbsp;
+  <%= link_to 'Contact'%>
+</div>

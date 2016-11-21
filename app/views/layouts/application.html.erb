@@ -14,9 +14,11 @@
   <title>GabriDoga</title>
   <%= favicon_link_tag 'favicon.ico' %>
 </head>
-<p class="notice"><%= notice %></p>
-<p class="alert"><%= alert %></p>
+<!--<p class='flash'><%= flash[:notice] %></p>-->
+<!--<p class='flash'><%= flash[:alert] %></p>-->
+
 <body>
+<%= render 'layouts/header' %>
 <%= yield %>
 </body>
 </html>

@@ -28,6 +28,7 @@
 //= require supersized.3.2.7.min
 //= require waypoints
 //= require waypoints-sticky
+//= require ckeditor/init.js.erb
 
 jQuery(function($) {
 

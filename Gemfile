@@ -25,6 +25,13 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 #my custome gem
 # gem 'materialize-sass'
 gem 'devise'
+gem 'paperclip'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
+gem 'ckeditor'
+
+
+
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'

@@ -90,7 +90,12 @@ h3 {
 .btn.btn-primary:hover {
   background-color: #017fb5;
 }
-
+.main-nav{
+  box-shadow: 0 0 5px gray;
+}
+.navbar-right{
+  padding-right: 20px;
+}
 .navbar-nav li a:hover,
 .navbar-nav li a:focus {
   outline:none;
@@ -641,7 +646,7 @@ section {
 
 .single-table {
   padding: 30px 20px 20px;
-  border:1px solid rgb(191, 183, 187);
+  border:1px solid rgba(191, 183, 187, 0.39);
   //background-color:#e3f2fd;
   //background-color:#b9f6ca;
 }
@@ -911,9 +916,9 @@ section {
 
 .form-control {
   background-color: transparent;
-  border-color: rgba(255,255,255,.1);
+  border-color: rgba(58, 58, 58, 0.48);
   height: 50px;
-  border-radius: 0;
+  border-radius: 4px;
   box-shadow: none;
 }
 

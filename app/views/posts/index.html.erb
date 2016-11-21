@@ -1,0 +1,51 @@
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href=<%= root_path %>>AdminPanel</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href=<%= new_post_path %>>Create Blog</a></li>
+        <li><a href=<%= users_index_path %>>User Management</a></li>
+        <% if user_signed_in? %>
+            <li>
+              <%= link_to('Logout', destroy_user_session_path,  :method => :delete) %>
+            <li class="round-image-50"><%= image_tag(current_user.avatar.url(:thumb)) %></li>
+            <li><a href=<%= edit_users_path %>><%= current_user.firstname %></a></li>
+
+        <% else %>
+            <li>
+              <%= link_to('Login', new_user_session_path)  %>
+            </li>
+        <% end %>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <div class="col-sm-10 col-sm-offset-1 col-xs-12 blog-content">
+    <% @posts.each do |post| %>
+        <div class="col-xs-12">
+          <div class="text-center">
+            <h2><%= post.title %></h2>
+            <h6><%= post.created_at.strftime('%b %d, %Y') %></h6>
+          </div>
+
+          <div>
+            <%= raw(post.body).truncate(358) %>
+          </div>
+
+          <div class="text-center">
+            <%= link_to "READ MORE", post_path(post) %>
+          </div>
+          <br>
+        </div>
+    <% end %>
+  </div>
+</div>
