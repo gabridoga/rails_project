@@ -28,12 +28,11 @@ gem 'devise'
 gem 'paperclip'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
-gem 'ckeditor'
 
 
 
 
-# Use ActiveModel has_secure_password
+    # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
 # Use Unicorn as the app server

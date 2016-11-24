@@ -1,21 +1,20 @@
 class PostsController < ApplicationController
 
-
   before_action :find_post, only: [:edit, :update, :show, :delete]
 
   # Index action to render all posts
   def index
-    @posts = Post.all
+    # @posts = Post.all
+    @posts = Post.all.paginate(page: params[:page], per_page: 2 )
   end
-
   # New action for creating post
   def new
     @post = Post.new
   end
-
   # Create action saves the post into database
   def create
-    @post = Post.new(post_params)
+    # @post = Post.new(post_params)
+    @post=current_user.posts.build(post_params)
     if @post.save
       flash[:notice] = "Successfully created post!"
       # puts "params = #{post_params.to_s}"
@@ -25,11 +24,9 @@ class PostsController < ApplicationController
       render :new
     end
   end
-
   # Edit action retrives the post and renders the edit page
   def edit
   end
-
   # Update action updates the post with the new information
   def update
     if @post.update_attributes(post_params)
@@ -40,7 +37,6 @@ class PostsController < ApplicationController
       render :edit
     end
   end
-
   # The show action renders the individual post after retrieving the the id
   def show
   end
@@ -54,18 +50,12 @@ class PostsController < ApplicationController
       flash[:alert] = "Error updating post!"
     end
   end
-
   private
-
   def post_params
-    params.require(:post).permit(:title, :body, :atfile)
+    params.require(:post).permit(:title, :body, :atfile, :appurl)
   end
 
   def find_post
     @post = Post.find(params[:id])
   end
-
-
-
-
 end

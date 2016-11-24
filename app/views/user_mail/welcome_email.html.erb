@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+
+  </head>
+  <body>
+  <div class="container">
+    <div class="header">&nbsp;&nbsp;&nbsp;Gabri Doga Ruby on Rails with Mobile development<%= image_tag attachments['profile.png'].url, :style => "outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; width: auto; max-width: 100%; float: left; clear: both; display: block;", :align=>"left" %></div>
+    <div class="content">
+    <h3>Hi, <%= @user[:name] %>!</h3>
+    <p>We are very glad for this opportunity to meet you..</p>
+    <p>
+      "<%=@user[:message]%>"
+    </p>
+    <p>
+      Gabri Doga will provide you with comfortable and useful supports on development<br>
+      such as Ruby on rails, Magento, Wordpress, iOS and Adroid.<br>
+      And then clean and mordern web and mobile design with twitter bootstrap, html5 and css3.<br>
+      We will also support jQuery, Node.js, AngularJs, Extjs and so foth.
+    </p>
+    <p>Thanks for contacting and have a great day!</p>
+    <p>Best Regard...</p>
+    <p>Gabri Doga</p><br>
+      Skype: &nbsp;&nbsp; bestsuperdoga<br>
+      Email: &nbsp;&nbsp;bestsuperflycode@gmail.com<br>
+      Address: &nbsp;&nbsp;President Steynplantsoen 1,1091 ND Amsterdam, Netherlands<br>
+    <p></p>
+
+      <%= link_to 'Find me on Github', 'https://github.com/gabridoga/',class: 'myButton' %>
+
+
+      <p><%= Time.now.strftime("%b %e, %Y %I:%M:%S %p %Z") %></p>
+
+    </div>
+    </div>
+    <style>
+
+      .myButton {
+        background-color:#44c767;
+        -moz-border-radius:4px;
+        -webkit-border-radius:4px;
+        border-radius:4px;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family:Arial;
+        font-size:12px;
+        padding:14px 31px;
+        text-decoration:none;
+        text-shadow:0px 1px 0px #2f6627;
+      }
+      .myButton:hover {
+        background-color:#5cbf2a;
+      }
+      .myButton:active {
+        position:relative;
+        top:1px;
+      }
+     .container{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto; 
+        padding:5px;
+        border-bottom:1px solid #C4BECC;
+        border-right:1px solid #C4BECC;
+        border-left:1px solid #C4BECC;
+        border-top:4px solid #00695c;
+      }
+      .header{
+        /*background: #0adb31;*/
+        /*padding:10px;*/
+        text-indent: 20px;
+        /*color:white;*/
+        font-size: 14px;
+      }
+      h3{
+        /*color:gray;*/
+      }
+      .content{
+        padding:10px;
+        font-size: 13px;
+        color: grey;
+      }
+
+    </style>
+  </body>
+</html>

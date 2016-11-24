@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+
+  </head>
+  <body>
+  <div class="container">
+    <div class="header">Gabri Doga</div>
+    <div class="content">
+    <h1> We received message from <%= @user[:name] %>.</h1>
+    <p>From <%= @user[:email] %>, the content are as following</p>
+    <p>
+      <%=@user[:message]%>
+    </p>
+    <p>Gabri Doga</p>
+    </div>
+    </div>
+    <style>
+     .container{
+        width:90%;
+        margin-left: auto;
+        margin-right: auto; 
+        /*padding:5px;*/
+        border-bottom:1px double #C4BECC;
+      }
+      .header{
+        /*background: #0adb31;*/
+        padding:10px;
+        text-indent: 20px;
+        color:white;
+        font-size: 14px;
+      }
+      h1{
+        color:gray;
+      }
+      .content{
+        padding:10px;
+        font-size: 13px;
+
+      }
+
+    </style>
+  </body>
+</html>

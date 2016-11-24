@@ -891,7 +891,9 @@ section {
 .btn-loadmore:hover {
   color:#fff;
 }
-
+.blogtop{
+  padding-top: 50px;
+}
 /*************************
 **********Contact CSS*****
 **************************/
@@ -1035,4 +1037,40 @@ ul.address {
 }
 .status{
   display: none;
+}
+//blog part
+.blogborder{
+  border-top: 1px solid #e5e5e5 ;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+.imagecolor{
+  color: #2ac6f7;
+}
+#postbackgroud{
+  background-image:url(asset_path('about-bg.jpg')) ;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size:cover;
+
+}
+// adming navbar
+.navbar,.container-fluid{
+  //height: 25px;
+  //background-color: #29b6f6;
+  border-color: transparent;
+  border-radius: 0px;
+  padding: 0px;
+  margin: 0px;
+
+}
+.post-contente{
+  color: white !important;
+}
+.post-title{
+  color: whitesmoke;
+}
+.navbar-brand{
+  color: #01579b !important;
+
 }

@@ -17,19 +17,19 @@
 
             <div class="post-meta">
               <span><i class="fa fa-comments-o"></i> 3 Comments</span>
-              <span><i class="fa fa-heart"></i> 0 Likes</span>
+              <span><i class="fa fa-heart"></i> 2 Likes</span>
             </div>
             <div class="post-icon">
               <i class="fa fa-pencil"></i>
             </div>
           </div>
           <div class="entry-header">
-            <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
+            <h3><a href="#">Text Blog </a></h3>
             <span class="date">June 26, 2014</span>
-            <span class="cetagory">in <strong>Photography</strong></span>
+            <span class="cetagory">in <strong>Text style</strong></span>
           </div>
           <div class="entry-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p>You can see my web development style on blog. </p>
           </div>
         </div>
         <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="600ms">
@@ -61,19 +61,19 @@
             </div>
             <div class="post-meta">
               <span><i class="fa fa-comments-o"></i> 3 Comments</span>
-              <span><i class="fa fa-heart"></i> 0 Likes</span>
+              <span><i class="fa fa-heart"></i> 14 Likes</span>
             </div>
             <div class="post-icon">
               <i class="fa fa-picture-o"></i>
             </div>
           </div>
           <div class="entry-header">
-            <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
-            <span class="date">June 26, 2014</span>
-            <span class="cetagory">in <strong>Photography</strong></span>
+            <h3><a href="#">Image slide Blog Type...</a></h3>
+            <span class="date">Sep 13, 2016</span>
+            <span class="cetagory">in <strong>Blog</strong></span>
           </div>
           <div class="entry-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p>This is gallery blog style for user details. </p>
           </div>
         </div>
         <div class="col-sm-4 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
@@ -90,18 +90,72 @@
             </div>
           </div>
           <div class="entry-header">
-            <h3><a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit</a></h3>
-            <span class="date">June 26, 2014</span>
+            <h3><a href="#">Image Slider</a></h3>
+            <span class="date">Oct 26, 2016</span>
             <span class="cetagory">in <strong>Photography</strong></span>
           </div>
           <div class="entry-content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+            <p>This is image designs for user writen blog type. </p>
+          </div>
+        </div>
+
+      </div>
+
+
+<div class="row blogtop"></div>
+
+<%
+  post_count=0
+  @posts.each do |post|
+  post_count+=1
+  if post_count<4
+%>
+      <div class="row blogborder">
+        <div class="col-sm-12 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="800ms">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="post-thumb">
+                <!--<a ><img class="img-responsive" src="assets/blog/3.jpg" alt=""></a>-->
+                <%=link_to image_tag(post.atfile.url(:medium),class:"img-responsive",alt:"logo"),post_path(post) %>
+                <div class="post-meta">
+                  <span><i class="fa fa-comments-o"></i> 3 Comments</span>
+                  <span><i class="fa fa-heart"></i> 0 Likes</span>
+                </div>
+                <div class="post-icon">
+                  <i class="fa fa-file-text-o"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-8">
+              <div class="entry-header">
+                <h3><a href="#"><%= post.title %></a></h3>
+                <span class="date"><%= post.created_at.strftime('%b %d, %Y') %></span>
+                <span class="cetagory">in <strong>Blog</strong></span>
+              </div>
+              <div class="entry-content">
+                <p><%= raw(post.body).truncate(358) %> &nbsp;<a href=<%= post.appurl %>><i class="fa fa-share-alt-square imagecolor"></i></a> </p>
+              </div>
+
+              <%= image_tag(post.user.avatar.url(:thumb),class:"round-image-50") %> &nbsp;&nbsp;&nbsp; By&nbsp;&nbsp;<b><%= post.user.firstname %></b>
+
+            </div>
           </div>
         </div>
       </div>
+<%
+
+  else
+  break
+  end
+  end
+
+%>
+
+
+
       <div class="load-more wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="500ms">
         <!--<a href="#" class="btn-loadmore"><i class="fa fa-repeat"></i> Load More</a>-->
-        <a data-scroll class="btn-loadmore" href="#services">Load More</a>
+        <a data-scroll class="btn-loadmore" href=<%= posts_path %>>Load More</a>
       </div>
     </div>
   </div>

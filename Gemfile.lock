@@ -44,9 +44,6 @@ GEM
       will_paginate
     builder (3.2.2)
     byebug (8.2.2)
-    ckeditor (4.2.0)
-      cocaine
-      orm_adapter (~> 0.5.0)
     climate_control (0.0.3)
       activesupport (>= 3.0)
     cocaine (0.5.8)
@@ -179,7 +176,6 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-will_paginate
   byebug
-  ckeditor
   coffee-rails (~> 4.1.0)
   devise
   jbuilder (~> 2.0)
