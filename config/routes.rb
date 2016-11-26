@@ -10,6 +10,9 @@ Rails.application.routes.draw do
   get '/users/:id', :to => 'users#show', :as => :user
   # resources :blogs, only: [:create, :destroy]
   resources :posts
+  resources :conversations do
+    resources :messages
+  end
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

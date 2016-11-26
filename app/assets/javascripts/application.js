@@ -28,6 +28,10 @@
 //= require supersized.3.2.7.min
 //= require waypoints
 //= require waypoints-sticky
+//= require private_pub
+//= require chat
+//= require users
+
 
 
 jQuery(function($) {

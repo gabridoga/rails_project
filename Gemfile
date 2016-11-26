@@ -28,6 +28,8 @@ gem 'devise'
 gem 'paperclip'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
+gem 'private_pub'
+gem 'thin'
 
 
 
@@ -57,3 +59,6 @@ end
 
 
 gem 'unicorn'
+group :production do
+  gem 'rails_12factor'
+end
