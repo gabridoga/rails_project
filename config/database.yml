@@ -22,5 +22,5 @@ test:
 production:
   <<: *default
   database: rails_project_production
-  username: postgres
-  password: root
+  username: rails
+  password: nw55xxzAeW
