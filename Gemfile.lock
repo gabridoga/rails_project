@@ -113,6 +113,7 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.9.1)
     multi_json (1.12.1)
+    mysql2 (0.4.5)
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
     orm_adapter (0.5.0)
@@ -221,6 +222,7 @@ DEPENDENCIES
   devise
   jbuilder (~> 2.0)
   jquery-rails
+  mysql2 (>= 0.3.13, < 0.5)
   paperclip
   pg (~> 0.15)
   private_pub

@@ -60645,3 +60645,341 @@ Here is my information.
 
   Rendered home/index.js.erb (0.4ms)
 Completed 200 OK in 14429ms (Views: 32.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-01 17:06:02 +0100
+
+ActiveRecord::NoDatabaseError (Unknown database 'rails_development'):
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/mysql2_adapter.rb:23:in `rescue in mysql2_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/mysql2_adapter.rb:10:in `mysql2_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:438:in `new_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:448:in `checkout_new_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:422:in `acquire_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:349:in `block in checkout'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.5.2) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.5.2) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.5.2) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.5.2) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:88:in `__run_callbacks__'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:778:in `_run_call_callbacks'
+  activesupport (4.2.5.2) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.3.0) lib/web_console/middleware.rb:28:in `block in call'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `catch'
+  web-console (2.3.0) lib/web_console/middleware.rb:18:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.5.2) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.5.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.5) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.5) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.5.2) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.5.2) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.5) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.5.2) lib/rails/engine.rb:518:in `call'
+  railties (4.2.5.2) lib/rails/application.rb:165:in `call'
+  rack (1.6.5) lib/rack/content_length.rb:15:in `call'
+  thin (1.7.0) lib/thin/connection.rb:86:in `block in pre_process'
+  thin (1.7.0) lib/thin/connection.rb:84:in `catch'
+  thin (1.7.0) lib/thin/connection.rb:84:in `pre_process'
+  thin (1.7.0) lib/thin/connection.rb:53:in `process'
+  thin (1.7.0) lib/thin/connection.rb:39:in `receive_data'
+  eventmachine (1.2.1) lib/eventmachine.rb:194:in `run_machine'
+  eventmachine (1.2.1) lib/eventmachine.rb:194:in `run'
+  thin (1.7.0) lib/thin/backends/base.rb:73:in `start'
+  thin (1.7.0) lib/thin/server.rb:162:in `start'
+  rack (1.6.5) lib/rack/handler/thin.rb:19:in `run'
+  rack (1.6.5) lib/rack/server.rb:286:in `start'
+  railties (4.2.5.2) lib/rails/commands/server.rb:80:in `start'
+  railties (4.2.5.2) lib/rails/commands/commands_tasks.rb:80:in `block in server'
+  railties (4.2.5.2) lib/rails/commands/commands_tasks.rb:75:in `tap'
+  railties (4.2.5.2) lib/rails/commands/commands_tasks.rb:75:in `server'
+  railties (4.2.5.2) lib/rails/commands/commands_tasks.rb:39:in `run_command!'
+  railties (4.2.5.2) lib/rails/commands.rb:17:in `<top (required)>'
+  bin/rails:9:in `require'
+  bin/rails:9:in `<top (required)>'
+  spring (2.0.0) lib/spring/client/rails.rb:28:in `load'
+  spring (2.0.0) lib/spring/client/rails.rb:28:in `call'
+  spring (2.0.0) lib/spring/client/command.rb:7:in `call'
+  spring (2.0.0) lib/spring/client.rb:30:in `run'
+  spring (2.0.0) bin/spring:49:in `<top (required)>'
+  spring (2.0.0) lib/spring/binstub.rb:31:in `load'
+  spring (2.0.0) lib/spring/binstub.rb:31:in `<top (required)>'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:69:in `require'
+  /Users/gari/.rbenv/versions/2.2.1/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:69:in `require'
+  bin/spring:13:in `<top (required)>'
+  bin/rails:3:in `load'
+  bin/rails:3:in `<top (required)>'
+  -e:1:in `load'
+  -e:1:in `<main>'
+
+
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.9ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (65.0ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (131.8ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/gari/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (205.3ms)
+  [1m[36m (9.5ms)[0m  [1mCREATE DATABASE `rails_development` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[36m (59.7ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (133.6ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20161115164738)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20161115164738)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20161115164738)
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20161115164738)
+  [1m[36m (0.4ms)[0m  [1mCREATE DATABASE `luis_development` DEFAULT CHARACTER SET `utf8` COLLATE `utf8_unicode_ci`[0m
+  [1m[36m (64.4ms)[0m  [1mCREATE TABLE `schema_migrations` (`version` varchar(255) NOT NULL) ENGINE=InnoDB[0m
+  [1m[35m (166.2ms)[0m  CREATE UNIQUE INDEX `unique_schema_migrations`  ON `schema_migrations` (`version`) 
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Migrating to DeviseCreateUsers (20161115164738)
+
+
+Started GET "/" for 127.0.0.1 at 2016-12-01 18:16:46 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (61.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by HomeController#index as HTML
+  Rendered home/_header.html.erb (5013.6ms)
+  Rendered home/_service.html.erb (0.7ms)
+  Rendered home/_about.html.erb (0.6ms)
+  Rendered home/_portfolio.html.erb (10.6ms)
+  Rendered home/_team.html.erb (5.1ms)
+  Rendered home/_feature.html.erb (0.6ms)
+  Rendered home/_pricing.html.erb (0.6ms)
+  Rendered home/_twiter.html.erb (0.5ms)
+  [1m[35mPost Load (76.4ms)[0m  SELECT "posts".* FROM "posts"  ORDER BY "posts"."created_at" DESC
+  [1m[36mUser Load (59.1ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1  [["id", 6]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "users".* FROM "users" WHERE "users"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered home/_blog.html.erb (310.4ms)
+  Rendered home/_contact.html.erb (16.5ms)
+  Rendered home/_footer.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (5428.9ms)
+Completed 200 OK in 5612ms (Views: 5297.2ms | ActiveRecord: 257.3ms)
+
+
+Started GET "/assets/font-awesome.min.self-2be89d406e3bdee9f3eae1ff9f1b7a6f5546eda3ab399f93502c0769947c761b.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/style.self-47fc3cab983e651331529826776118a48b74f3a60f935f1e3b7e150e635eb67f.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/responsive.self-50510f266476273eea0e4fbbdd4b98a47da483ad069b07636fba668e041c6d69.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/jquery.fancybox.self-b2ad1293dc5fe5cb7b4db4808185f9c296b77c59281c352e7004d7d95b6378cd.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/lightbox.self-d2c20b16b2adf48a42d757bd2a3e3b2d4259b43a40c790ca09344e54d0b64e77.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/bootstrap.min.self-4e8ea40232d656dfcf8db1d1c89429f0acbe06961ecbd33c765e6d8a7c5dc7a9.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/animate.min.self-11c336d8e28efc5cb03f77b9ffbfcf98c72f8f98f8a7322b78120ff14f71211c.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/preset1.self-4fa8b34a1dbfe7481dfcbb66f37125f2efaf18566757d7d1fe6ba62263038431.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/admin.self-25473093a7b4ffdf33b4a9a7941e0ac0863bf2fb8720db4ac509b1d15c47c130.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/posts.self-e220935fcd86153dbf97b5bacfe5f9843b53039f68a16c7ce9bba6f925f9a970.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/application.self-19bd85592caac4691fffae46d1e1e46e3499e6ca2a47401c2e108cf542051215.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/site.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/jquery_ujs.self-784a997f6726036b1993eb2217c9cb558e1cbb801c6da88105588c56f13b466a.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/jquery.self-dc374037b14090dd97def7452218f5606a2fc85ef353989fda11e1294b7dd8de.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/turbolinks.self-c5acd7a204f5f25ce7a1d8a0e4d92e28d34c9e2df2c7371cd7af88e147e4ad82.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/messages.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/chat.self-08877a41716a0d25591ad867be1bdf9b5ccb29636c7286436ec1fcbae51ba483.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/conversations.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/admin.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/posts.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/users.self-cb66e2ef4720d131656110ca068b99462af0ec446f05591d4ddef04f3d9a09a6.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/bootstrap.min.self-d66e555f160df017adf1ca16a36cd609a36d49c51637e365c5b8847d0065fa40.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/jquery.inview.min.self-e2bc5928c62fdd354620d55dfcf27d56070af68c2b60e11a5d5ee9a99fd70826.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/html5shiv.self-1f432d487ed3790f765994dd831280ac2373eb894c0c2cec7b1fc3372f1ac6db.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/jquery.countTo.self-ee4a99978f49792845630da2169bf98164f013c7c88502d1928bd4c2c9628fab.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/mousescroll.self-f90d927787467e1035c72bc75628bdcf51c6a61640f446da512f50d2619beac2.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/respond.min.self-ce6956f02c4ea8da8c7946401a8c7eeae9f685c7375faf62e00be01a31aac68f.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/lightbox.min.self-a69efde1189d858f0ca8c87eb858fdc1059e3e6e71de62fa18f76d0e9e184f61.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/smoothscroll.self-f746cc3df89a2f5ef2a18f5728434b1a6a68736d5fdaaeef00a4072c99d6dda0.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/jquery.tweet.self-648676088c863e222276acb1343f60d7afd26d15b83c9481da99b9056ea388be.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/supersized.3.2.7.min.self-317f7e79a549b37821ca8668fd480223a246c98e9cdef144d51ae098f4079a18.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/waypoints.self-b50f0c72a6f877c1e656c1eabd93b8cb4f237df8c7b67a9bbfcefbf12d951aeb.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/wow.min.self-cfd8d8dcba219115ffe6ff06ca6ddbc6ba5c0425837388872b803223747dc22a.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/jquery.fancybox.pack.self-8d1cf7d3c5cc0a6cb9e7c0c50afac3b920edb25e72de9a2fe7e8f81ac964137e.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/waypoints-sticky.self-0ad49cb9ba3ec11272076105667933a22b46016e42aaf08f083975aec1200926.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/private_pub.self-b110feb9d6b39a3b0dc59510984a4ff9ad14a15e427afbd7474c4531dbb660a6.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/application.self-7c37190e6423f840e0777365690aabaa6eb355942b117b9cae5c8a8ad73e138c.js?body=1" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/logo-1facdcba195ba6d78e224f0ca84e557df9a46ece1e3ec2e001480432ccdd5b73.png" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/portfolio/traveling-d38718b0ef047c7818eea14195fcf361fc6013d2c2883c108aaa1536e115d9d2.png" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/portfolio/booking-f7f81e7ce39c384c3bdf8f05239ad0e5003db465bc1ccd6771cc60d573c7ac5a.png" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/portfolio/dating-e8ac0de8ac95c80fb62ff5eed1f77ca6b13322fee8bbb4087ebb9f2e9192a2a8.png" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/portfolio/locationservice-ae270718fe4cade38c0893c1660433cca3298507439e191b12b2dfcb205129b2.png" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/portfolio/photoshare-925899025276f67b5de5afa24d118321c61d889288ee2f5bb54c85da52625b18.png" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/portfolio/scehule-f2d93742f5de2cc2fc2931e44736755406f44f637eb3f62b5e0446545fbd3d5d.png" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/portfolio/sports-fed30ea6eb31a5e606bae4f13bc9167ae0ba71d24f263f18b15cca400059ad8c.png" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/portfolio/chating-573a850e269602d03ba01ab74aea2580798145a8b30242a42f7244148b43ff3f.png" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/team/1-dc3a0bfb91616006e9ec6c5b2b7dff394831370c732736e856b7999f89fbf32c.jpg" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/team/2-2805b041764f678e4bac837411e61d7463c4f7e910024439b5a34974a39ca862.jpg" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/team/3-80e91188dd3205d42795848eb3cda43ad85e81c88f159d82da4554f6ef2438aa.jpg" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/team/4-3f1e44bf94c0a59282afcd5a42061410df5c3dbf280741713cad95a43427fbdd.jpg" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/blog/1-98c8e541de9ed3a9c04828a7acce7338e057759fd0d7c27156619007a1859714.jpg" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/blog/2-66d2b64e9b73e7f753a5f0395010a9336b3e35cf386922c6ce5724e04c1f8fae.jpg" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/blog/3-5d68f9d063aa3a34cc188208f797894cc723a406dd6d79e089fdd99be3d9b49f.jpg" for 127.0.0.1 at 2016-12-01 18:16:53 +0100
+
+
+Started GET "/assets/fontawesome-webfont-aadc3580d2b64ff5a7e6f1425587db4e8b033efcbf8f5c332ca52a5ed580c87c.woff2?v=4.3.0" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/slider/1-e611246cc1aa927f1ea69afdeb866c1dc0b0d562771faaae6e036e833604aab7.jpg" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/features-bg-910d71a1aa83e6746f1b60345fecc17cdbb486a5e0cc8d600a6b3ac6ee36af5b.jpg" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/slider/2-bba89fa5cd296d62620aa18e617f54b49399fbea98ab1959aa73b4cd9906b3ea.jpg" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/about-bg-b304f12d6f9c3a3c0f06f1db519cba929c484e97e54e6dc5531452b244cb5574.jpg" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/slider/3-cc7d37126fdf3f1151b10df42656ca16ffa25be933ae4f130e8a6a6c05e86faa.jpg" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/twitter-bg-39706a3edf4a5e464dc243e11255e551129db0d4180aa9c09344b7748d74daf8.jpg" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/contact-bg-f4d45e582af84d06c7c65cfcf5c6d47b8d3e7636215e42e6c0a1aee5bdd38f8d.jpg" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/lightbox/prev-7fd9273f20fdb1229c224341271a119020a5eee74ccf6b4605730917c864caf2.png" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/lightbox/close-872f9972ba910eec0276421e5110c0f77e6786011310a1d866d2c532ae140a16.png" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/lightbox/loading-a532ff61efb0bbc07ac705bb7715b60cb9a495c0def29db0a5f0b2f7dd1bd472.gif" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/lightbox/next-15b869b02c6fbaa8c6c26445a2dd2d9bad80fd27b1409f8179e5dd89dc89d90a.png" for 127.0.0.1 at 2016-12-01 18:16:55 +0100
+
+
+Started GET "/assets/favicon-acf0459ac4991b2932077a92236950b9a7431ce27014d7a2e16227f03688d876.ico" for 127.0.0.1 at 2016-12-01 18:17:00 +0100
